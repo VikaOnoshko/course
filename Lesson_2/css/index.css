@@ -9,11 +9,6 @@ ol[class] {
   padding: 0;
 }
 
-section.ant-layout:not([id="admin"])::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
 body,
 h1,
 h2,
