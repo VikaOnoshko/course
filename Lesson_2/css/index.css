@@ -104,6 +104,7 @@ select {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  font-family: "Raleway", sans-serif;
 }
 
 .dignity__characteristics {
@@ -152,6 +153,7 @@ select {
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .dignity__description-wrapper {
@@ -167,4 +169,5 @@ select {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  font-family: "Raleway", sans-serif;
 }
