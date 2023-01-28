@@ -40,15 +40,15 @@ h3 {
   justify-content: space-between;
 }
 
-.tabs__discriotion-text {
+p.tabs__discriotion-text {
   font-family: "Raleway", sans-serif;
+  line-height: 21px;
   font-weight: 400;
   font-size: 18px;
-  text-align: left;
+  text-align: start;
   white-space: pre-line;
   color: #000000;
-  width: 570px;
-  min-height: 210px;
+  height: 100%;
 }
 
 .container {
