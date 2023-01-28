@@ -12,7 +12,8 @@
 }
 
 .container {
-  display: flex;
+  display: flex; 
+  /* Используется для центрирования и ограничения области */
 }
 
 .tabs__title {
@@ -54,6 +55,7 @@ p.tabs__discriotion-text {
 .container {
   max-width: 1170px;
   height: 501px;
+  /* Не используй фиксированную высоту */
   margin: 0 auto;
   display: flex;
 }

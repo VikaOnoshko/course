@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0c" />
-    <!-- <link rel="stylesheet" href="./css/index.css" /> -->
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/tabs.css" />
     <link href="./css/reset.css" rel="stylesheet" />
     <title>Onoshko</title>
@@ -13,10 +13,10 @@
   <body>
     <section class="tabs">
       <div class="container">
-        <div class="wrapper">
+        <div class="wrapper"> <!-- Почему враппер ограничивает твой блок по ширине? это работа контейнера  -->
           <div class="tabs__header">
-            <div class="tab tab_active">
-              <div class="tab__name">
+            <div class="tab tab_active"> <!-- Это скорее не таб, а что-то рядом с таб навигацией  -->
+              <div class="tab__name"> <!-- Попробуй измени их на <input type="radio"> с сылкой внутри привязанного к данному input лэйблом ( <label><a></a></label> )  -->
                 <span> TAB 1</span>
               </div>
             </div>
@@ -31,8 +31,8 @@
               </div>
             </div>
           </div>
-          <div class="tabs__revenue">
-            <div class="tabs__text-revenue">
+          <div class="tabs__revenue"> <!-- Это скорее таб  -->
+            <div class="tabs__text-revenue"> <!-- Переименуй классы дальше так, словно это один независимый tab  -->
               <div class="tabs__title">
                 <h3>Tabs with soft transitioning effect.</h3>
               </div>
@@ -45,21 +45,21 @@
                   </p>
                 </div>
                 <div class="tabs__button-wrapper">
-                  <button class="tabs__button">
-                    <span>Download</span>
+                  <button class="tabs__button"> <!-- Добавь стилизацию курсора на данной кнопке - cursor: pointer и сделай какой-нибудь ховер эффект на неё  -->
+                    <span>Download</span> <!-- спан внутри тега button не обязателен ( только в том случае если внутри тега находится один текст )  -->
                   </button>
                 </div>
               </div>
             </div>
             <div class="tabs__photo">
-              <img src="./assets/img/statue.png" alt-="statue" />
+              <img src="./assets/img/statue.png" alt-="statue" /> <!-- Убери тире у альт  -->
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="section">
+    <div class="section"> <!-- Это просто секция, дай ей класс соответствующий внутреннему содержимому - <section class="...">  -->
       <div class="container">
         <div class="wrapper">
           <div class="dignity__container">
