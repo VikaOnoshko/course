@@ -1,0 +1,42 @@
+.section-header__title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.section-header__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.section-header__line-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header__line {
+  width: 170px;
+  height: 0px;
+  border: 1px solid #ec7979;
+}
+
+.section-header__quote-wrapper {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.section-header__quote {
+  text-align: center;
+  color: #86878b;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Raleway", sans-serif;
+}

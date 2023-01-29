@@ -64,49 +64,6 @@ select {
   width: 100%;
 }
 
-.dignity__header {
-  display: flex;
-  height: 150px;
-  justify-content: center;
-  align-items: center;
-}
-
-.dignity__title {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-}
-
-.dignity__line-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dignity__line {
-  width: 170px;
-  height: 0px;
-  border: 1px solid #ec7979;
-}
-
-.dignity__quote-wrapper {
-  margin-top: 40px;
-  margin-bottom: 70px;
-}
-
-.dignity__quote {
-  text-align: center;
-  color: #86878b;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  font-family: "Raleway", sans-serif;
-}
-
 .dignity__characteristics {
   display: flex;
   justify-content: space-between;
@@ -143,6 +100,7 @@ select {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  height: 100px;
 }
 
 .dignity-card__name {
@@ -156,7 +114,7 @@ select {
   font-family: "Open Sans", sans-serif;
 }
 
-.dignity__description-wrapper {
+.dignity-card__description-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,4 +128,5 @@ select {
   font-size: 18px;
   line-height: 21px;
   font-family: "Raleway", sans-serif;
+  white-space: pre-line;
 }
