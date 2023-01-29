@@ -1,18 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap");
 
-.tabs__revenue {
+.tab {
   display: flex;
   border: 1px solid #c6cbcd;
 }
 
-.tabs__text-revenue {
+.tab__text {
   /* width: 100%; */
   padding: 0px 30px 27px 100px;
   text-align: center;
-}
-
-.container {
-  display: flex;
 }
 
 .tabs__title {
@@ -33,22 +29,20 @@ h3 {
 
 .tabs__discription {
   width: 570px;
-  min-height: 210px;
-  margin-top: 27px;
   margin-bottom: 27px;
   display: flex;
   justify-content: space-between;
+  height: 210px;
 }
 
-.tabs__discriotion-text {
-  font-family: "Raleway", sans-serif;
+p.tabs__discription-text {
+  font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
-  text-align: left;
+  text-align: start;
   white-space: pre-line;
   color: #000000;
-  width: 570px;
-  min-height: 210px;
+  height: 100%;
 }
 
 .container {
@@ -80,6 +74,8 @@ h3 {
   height: 58px;
   background: #ec7979;
   border: none;
+  cursor: pointer;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -90,25 +86,42 @@ h3 {
   color: #ffffff;
 }
 
+.tabs__button:hover {
+  background-color: rgb(246, 155, 155);
+}
+
 .tabs__header {
   display: flex;
   width: 100%;
   transform: translate(0, 1px);
 }
 
-.tab {
+.tabs__link {
   width: 184px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  text-decoration: none;
+  color: #000000;
 }
 
-.tab_active {
+.tabs__link:hover {
+  background-color: rgb(189, 194, 193);
+}
+
+.tabs__link_active {
   border: 1px solid #c6cbcd;
   border-radius: 6px 6px 0 0;
   border-bottom: 2px solid #ffffff;
   text-align: center;
   width: 204px;
+}
+
+.tabs__link-name {
+  text-decoration: none;
 }
