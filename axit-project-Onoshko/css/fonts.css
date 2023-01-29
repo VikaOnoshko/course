@@ -1,1 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+/* Можешь его запихнуть в index.css
+Как и остальные файлы стилей - ты можешь импортировать в один файл index.css а потом index.css импортировать в index.html */

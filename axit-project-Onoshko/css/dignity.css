@@ -59,6 +59,8 @@
   align-items: center;
   margin-top: 8px;
 }
+
+/* Перепроверь дублирование стилей, например font-family во многих сестах кода ты их повторяешь */
 .dignity-card__description {
   text-align: center;
   font-family: "Raleway";

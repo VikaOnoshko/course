@@ -3,6 +3,7 @@
     justify-content: center;
   }
   
+  /* Не делай фиксированную ширину */
   .wrapper {
     width: 1170px;
   }
