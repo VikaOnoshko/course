@@ -1,0 +1,71 @@
+.dignity {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.dignity__characteristics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dignity-card {
+  width: 370px;
+}
+
+.dignity-card__header {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dignity-card__logo-wrapper {
+  width: 92px;
+  height: 92px;
+  border: 1px solid #ec7979;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dignity-card__logo {
+  width: 66px;
+  height: 66px;
+  object-fit: contain;
+}
+
+.dignity-card__name-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 100px;
+}
+
+.dignity-card__name {
+  text-align: center;
+  color: #000000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dignity-card__description-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.dignity-card__description {
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Raleway", sans-serif;
+  white-space: pre-line;
+}

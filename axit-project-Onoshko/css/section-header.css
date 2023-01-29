@@ -11,6 +11,7 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
+  text-transform: uppercase;
 }
 
 .section-header__line-wrapper {
