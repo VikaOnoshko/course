@@ -1,3 +1,7 @@
+.tabs {
+  padding-top: 100px;
+}
+
 .tab {
   display: flex;
   border: 1px solid #c6cbcd;
@@ -8,13 +12,13 @@
   text-align: center;
 }
 
-.tabs__title-wrapper {
+.tab__title-wrapper {
   width: 570px;
   height: 124px;
   display: flex;
 }
 
-.tabs__title {
+.tab__title {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -24,7 +28,7 @@
   color: #000000;
 }
 
-.tabs__discription {
+.tab__discription {
   width: 570px;
   margin-bottom: 27px;
   display: flex;
@@ -32,7 +36,7 @@
   height: 210px;
 }
 
-p.tabs__discription-text {
+p.tab__discription-text {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
@@ -42,14 +46,14 @@ p.tabs__discription-text {
   height: 100%;
 }
 
-.tabs__photo {
+.tab__photo {
   width: 470;
   height: 500;
   margin: left 30px;
   margin-top: 0px;
 }
 
-.tabs__button-wrapper {
+.tab__button-wrapper {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
@@ -59,13 +63,13 @@ p.tabs__discription-text {
   margin-top: 27px;
 }
 
-.tabs__button {
+.tab__button {
   width: 270px;
   height: 58px;
   background: #ec7979;
   border: none;
   cursor: pointer;
-  transition: .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -76,7 +80,7 @@ p.tabs__discription-text {
   color: #ffffff;
 }
 
-.tabs__button:hover {
+.tab__button:hover {
   background-color: rgb(246, 155, 155);
 }
 
@@ -95,7 +99,7 @@ p.tabs__discription-text {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
-  transition: .3s  cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   text-decoration: none;
   color: #000000;
 }

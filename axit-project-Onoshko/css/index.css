@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500&display=swap");
+
 .container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .wrapper {
-    width: 1170px;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1170px;
+}
+
+.wrapper_raw {
+  display: flex;
+}

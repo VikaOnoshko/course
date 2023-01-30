@@ -1,0 +1,115 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: #000000;
+}
+
+.header__wrapper {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+.logo__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo__name_highlight {
+  color: #ec7979;
+}
+
+.header__nav {
+  float: inline-end;
+}
+
+.header__list {
+  width: 570px;
+  height: 75px;
+  display: flex;
+}
+
+.header__item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+  margin: auto;
+}
+
+.header__link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__link:hover {
+  color: #778899;
+}
+
+.social-media {
+  background: #f8efef;
+  padding: 18px 0;
+}
+
+.social-media__social-network-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+}
+
+.social-media__social-network-logo {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.social-media__about {
+  margin-right: 30px;
+}
+.social-media__title-wrapper {
+  height: 60px;
+  width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 18px;
+}
+
+.social-media__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.social-media__description {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  white-space: pre-line;
+}
+
+.social-media__social-network-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
