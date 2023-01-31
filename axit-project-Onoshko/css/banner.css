@@ -1,5 +1,7 @@
 .header {
-  position: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   width: 100%;
   background: #000000;
 }
@@ -13,8 +15,12 @@
 
 .logo {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Open Sans";
+
+}
+.logo.logo_large{
+font-size: 55px;
 }
 
 .logo__link {
@@ -112,4 +118,90 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.banner{
+  background: url(../assets/img/bg.png);
+}
+
+
+.banner__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.banner__text{
+  width: 670px;
+}
+
+.banner__shadow{
+  background-color: rgba(0,0,0,0.5);
+  padding: 208px 0 185px 0;
+}
+
+.banner__button {
+  width: 270px;
+  height: 58px;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+
+.banner__registration-form{
+  width: 470px;
+  }
+
+.registration-form{
+  width: 100%;
+  background-color:  #ffffff;
+  border-radius: 10px;
+}
+.registration-form__header{
+  padding: 0 50px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-form__body{
+  padding: 0 50px;
+}
+
+.registration-form__title{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #333333;
+text-transform: uppercase;
+height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text_button{
+  width: 470px;
+  height: 60px;
+  background: #ec7979;
+  border: none;
+  margin-top: 75px;
+
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0 0 10px 10px;
 }

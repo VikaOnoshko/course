@@ -12,3 +12,7 @@
 .wrapper_raw {
   display: flex;
 }
+
+.highlight{
+ color: #ec7979;
+}
