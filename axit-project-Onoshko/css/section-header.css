@@ -3,7 +3,6 @@
 }
 
 .section-header__title-wrapper {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +31,6 @@
 
 .section-header__quote-wrapper {
   margin-top: 40px;
-  
 }
 
 .section-header__quote {
@@ -50,21 +48,21 @@
   justify-content: flex-start;
 }
 
-.section-header__title_large{
-font-size: 48px;
-line-height: 56px;
+.section-header__title_large {
+  font-size: 48px;
+  line-height: 56px;
 }
 
 .section-header_large {
   margin-bottom: 42px;
 }
 
-.section-header_large .section-header__title-wrapper{
+.section-header_large .section-header__title-wrapper {
   height: auto;
   margin-bottom: 55px;
 }
-.section-header_large .section-header__title{
-font-size: 48px;
+.section-header_large .section-header__title {
+  font-size: 48px;
 }
 
 .section-header_white .section-header__title {
@@ -72,17 +70,15 @@ font-size: 48px;
 }
 
 .section-header_white .section-header__line {
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 .section-header_white .section-header__quote {
   color: #ffffff;
 }
 
-
 .section-header__line-wrapper_left {
   justify-content: flex-start;
 }
-
 
 .section-header__quote_left {
   text-align: left;

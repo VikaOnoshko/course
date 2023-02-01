@@ -189,13 +189,18 @@ justify-content: center;
 align-items: center;
 }
 
-.text_button{
-  width: 470px;
+.registration-form__footer{
   height: 60px;
+  width: 470px;
+}
+
+.registration-form__submit{
+  width: 100%;
+  height: 100%;
+  display: block;
   background: #ec7979;
   border: none;
   margin-top: 75px;
-
 
   font-family: "Open Sans";
   font-style: normal;
@@ -205,3 +210,35 @@ align-items: center;
   color: #ffffff;
   border-radius: 0 0 10px 10px;
 }
+
+.text-input{
+  width: 100%;
+  height: 38px;
+}
+
+.text-input__label{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #BDBDBD;
+margin: 0;
+}
+
+.text-input >input{
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 10px;
+
+}
+
+.text-input__underline{
+  width: 100%;
+  height: 1px;
+  background: #BDBDBD;
+  overflow: hidden;
+  margin-bottom: 33px;
+}
+
+
