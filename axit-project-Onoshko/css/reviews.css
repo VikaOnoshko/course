@@ -5,7 +5,7 @@
 }
 
 .reviews__wrapper > .section-header {
-    margin-bottom: 83px;
+  margin-bottom: 83px;
 }
 
 .reviews__cards {
@@ -17,7 +17,7 @@
 }
 
 .customers-card__message {
-    position: relative;
+  position: relative;
   background-color: #e2e2e2;
   border-radius: 10px;
   text-align: center;
@@ -37,14 +37,14 @@
 }
 
 .customers-card__message::after {
-    content: "";
-    display: block;
-    background-image: url(../assets/img/threangle.png);
-    width: 30px;
-    height: 20px;
-    position: absolute;
-    left: 70px;
-    bottom: -20px;
+  content: "";
+  display: block;
+  background-image: url(../assets/img/threangle.png);
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  left: 70px;
+  bottom: -20px;
 }
 
 .customers-card__author {

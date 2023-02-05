@@ -1,0 +1,56 @@
+.contact__wrapper {
+  width: 1170px;
+  padding: 50px 170px;
+}
+
+.contact__message__form {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.message__form__personal-information {
+  width: 570px;
+  padding: 0 15px;
+}
+
+.message__form__message {
+  width: 570px;
+  padding: 0 15px 0 0;
+}
+
+.contact__button-wrapper {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  margin-top: 27px;
+}
+
+.contact__button {
+  width: 370px;
+  height: 58px;
+  background: #ec7979;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.contact__button:hover {
+  background-color: rgb(246, 155, 155);
+}
+.contact .text-input__underline {
+  margin-bottom: 50px;
+}
+
+.message__form__message textarea {
+  height: 192px;
+}
