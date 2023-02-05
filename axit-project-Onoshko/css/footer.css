@@ -1,6 +1,7 @@
 .footer {
   background: #000000;
-  padding-top: 40px;
+  padding-top: 35px;
+  padding-bottom: 27px;
 }
 
 .footer__wrapper {
@@ -12,8 +13,7 @@
 .license {
   align-items: center;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 27px;
+  margin-top: 28px;
 }
 
 .license_text {
