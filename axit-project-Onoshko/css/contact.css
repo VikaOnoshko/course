@@ -1,21 +1,24 @@
 .contact__wrapper {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 50px 170px;
 }
 
-.contact__message__form {
+.contact-message-form {
   display: flex;
   margin: 0 -15px;
+  justify-content: center;
+  flex-wrap: wrap ;
 }
 
-.message__form__personal-information {
-  width: 570px;
+.contact-message-form__personal-information {
+  width: 50%;
   padding: 0 15px;
 }
 
-.message__form__message {
-  width: 570px;
-  padding: 0 15px 0 0;
+.contact-message-form__message {
+  width: 50%;
+  padding: 0 15px;
 }
 
 .contact__button-wrapper {
@@ -28,6 +31,8 @@
 }
 
 .contact__button {
+  max-width: 370px;
+  width: 100%;
   width: 370px;
   height: 58px;
   background: #ec7979;

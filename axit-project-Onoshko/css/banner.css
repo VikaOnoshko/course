@@ -9,8 +9,8 @@
 }
 
 .header__wrapper {
-  width: 1170px;
-  height: 75px;
+  max-width: 1224px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -106,7 +106,6 @@
 }
 
 .social-media__description {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -153,6 +152,7 @@
   text-align: center;
   text-transform: capitalize;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .banner__registration-form {
@@ -209,6 +209,7 @@
   text-align: center;
   color: #ffffff;
   border-radius: 0 0 10px 10px;
+  cursor: pointer;
 }
 
 .text-input {

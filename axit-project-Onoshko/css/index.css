@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500&display=swap");
+@import url(../css/reset.css);
+@import url(../css/tabs.css);
+@import url(../css/dignity.css);
+@import url(../css/pricing.css);
+@import url(../css/banner.css);
+@import url(../css/reviews.css);
+@import url(../css/banner_2.css);
+@import url(../css/contact.css);
+@import url(../css/footer.css);
+@import url(../css/section-header.css);
+
+
 
 .container {
   display: flex;
@@ -6,7 +18,7 @@
 }
 
 .wrapper {
-  width: 1170px;
+  max-width: 1170px;
 }
 
 .wrapper_raw {
@@ -15,4 +27,8 @@
 
 .highlight {
   color: #ec7979;
+}
+
+body{
+  font-family: "Raleway";
 }

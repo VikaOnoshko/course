@@ -4,6 +4,11 @@
   background: #f5f5f5;
 }
 
+.pricing__wrapper {
+  max-width: 1170px;
+  width: 100%;
+}
+
 .pricing__options-list {
   display: flex;
   justify-content: space-between;
@@ -50,7 +55,6 @@
 }
 
 .pricing-option__price {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -89,7 +93,6 @@
 }
 
 .pricing-option__info-option-name {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

@@ -5,49 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0c" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    
-    <link rel="stylesheet" href="./css/tabs.css" />
-    <link rel="stylesheet" href="./css/dignity.css" />
-    <link rel="stylesheet" href="./css/pricing.css" />
-    <link rel="stylesheet" href="./css/banner.css" />
-    <link rel="stylesheet" href="./css/reviews.css"/>
-    <link rel="stylesheet" href="./css/banner_2.css"/>
-    <link rel="stylesheet" href="./css/contact.css"/>
-    <link rel="stylesheet" href="./css/footer.css"/>
-
-    <link rel="stylesheet" href="./css/section-header.css" />
     <title>Onoshko</title>
   </head>
 
   <body>
+
     <header class="header">
       <div class="header__wrapper">
-      <div class="logo">
-        <a href="" class="logo__link">
-          <span>AX</span><span class="logo__name_highlight">IT</span>
-        </a>
-    </div>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item">
-          <a href="#!" class="header__link">Features</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">About</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">Pricing</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">Reviews</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+        <div class="logo">
+          <a href="" class="logo__link">
+            <span>AX</span><span class="logo__name_highlight">IT</span>
+          </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#!" class="header__link">Features</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">About</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">Pricing</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">Reviews</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
     </header>
 
     <section class="banner">
@@ -73,7 +62,7 @@
                   </p>
                 </div>
               </div>
-              <button class="banner__button">Download</button>
+              <button type="button" class="banner__button">Download</button>
             </div>
             <div class="banner__registration-form">
               <form class="registration-form">
@@ -102,7 +91,7 @@
                   </label>
                 </div>
                 <div class="registration-form__footer">
-                  <button class="registration-form__submit">Get Started</button>
+                  <button type="submit" class="registration-form__submit">Get Started</button>
                 </div>
               </form>
             </div>
@@ -200,7 +189,7 @@
                     bibendum laoreet.</p>
                 </div>
                 <div class="tab__button-wrapper">
-                  <button class="tab__button">Download</button>
+                  <button type="button" class="tab__button">Download</button>
                 </div>
               </div>
             </div>
@@ -298,7 +287,7 @@
     
     <section class="pricing">
       <div class="container">
-        <div class="wrapper">
+        <div class="pricing__wrapper">
           <div class="section-header">
             <div class="section-header__title-wrapper">
               <h2 class="section-header__title">pricing options</h2>
@@ -447,7 +436,7 @@
             <div class="customers-card__author">
               <div class="customers-card__author-avatar">
                 <img
-                src="./assets/img/Ellipse 7.png"
+                src="./assets/img/Ellipse_7.png"
                 alt="light">
               </div>
               <div class="customers-card__author-profile">
@@ -503,7 +492,7 @@
             <div class="customers-card__author">
               <div class="customers-card__author-avatar">
                 <img
-                src="./assets/img/ava 3.png"
+                src="./assets/img/ava_3.png"
                 alt="light">
               </div>
               <div class="customers-card__author-profile">
@@ -537,7 +526,7 @@
                 </p>
               </div>
             </div>
-            <button class="design__button">Download</button>
+            <button  type="button" class="design__button">Download</button>
           </div>
           </div>
         </div>
@@ -560,8 +549,8 @@
               </p>
             </div>
           </div>
-          <div class="contact__message__form">
-            <div class="message__form__personal-information">
+          <form class="contact-message-form">  
+            <div class="contact-message-form__personal-information">
               <label class="text-input">
                 <h6 class="text-input__label">Name</h6>
                 <input name="name" type="text">
@@ -581,7 +570,7 @@
                 </div>
               </label>
             </div>
-            <div class="message__form__message">
+            <div class="contact-message-form__message">
               <label class="text-input">
                 <h6 class="text-input__label">Message</h6>
                 <textarea name="message" cols="30" rows="16"></textarea>
@@ -589,10 +578,10 @@
                 </div>
               </label>
             </div>
-          </div>
-          <div class="contact__button-wrapper">
-            <button class="contact__button">Download</button>
-          </div>
+            <div class="contact-message-form__button-wrapper">
+              <button type="submit" class="contact__button">Send Message</button>
+            </div>
+          </form>
       </div>
     </section>
 
