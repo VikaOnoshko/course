@@ -10,14 +10,11 @@
 @import url(../css/footer.css);
 @import url(../css/section-header.css);
 
-
 .container {
   margin: 0 auto;
   max-width: 1170px;
-}
-
-.wrapper {
-  max-width: 1170px;
+  box-sizing: border-box;
+  padding: 0 15px 0 15px;
 }
 
 .wrapper_raw {
@@ -28,43 +25,41 @@
   color: #ec7979;
 }
 
-body{
+body {
   font-family: "Raleway";
 }
 
-button.filled{
+button.filled {
   cursor: pointer;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 15px;
   font-weight: 600;
   line-height: 20px;
   text-align: center;
-  background: #EC7979;
+  background: #ec7979;
   border: none;
   color: #ffffff;
-  transition: linear .5s;
+  transition: linear 0.5s;
 }
 
-button.filled:hover{
+button.filled:hover {
   background: #e98a8a;
 }
 
-button.outlined{
+button.outlined {
   cursor: pointer;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
   text-align: center;
   background: transparent;
   color: #ffffff;
-  transition: linear .5s;
+  transition: linear 0.5s;
   border-color: #ffffff;
 }
 
-button.outlined:hover{
-background-color: black;
-opacity: 0.4;
-
+button.outlined:hover {
+  background-color: black;
+  opacity: 0.4;
 }
-

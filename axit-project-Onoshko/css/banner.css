@@ -8,8 +8,12 @@
   justify-content: center;
 }
 
-.header__wrapper {
+.header .container {
   max-width: 1224px;
+  width: 100%;
+}
+
+.header__wrapper {
   width: 100%;
   display: flex;
   align-items: center;
@@ -90,7 +94,8 @@
 }
 .social-media__title-wrapper {
   height: 60px;
-  width: 470px;
+  width: 100%;
+  max-width: 470px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -178,7 +183,6 @@
   align-items: center;
 }
 
-
 .registration-form__submit {
   width: 100%;
   height: 60px;
@@ -240,13 +244,12 @@
   line-height: 19px;
   position: relative;
   color: #000000;
-  border-bottom: 1px solid #BDBDBD;
+  border-bottom: 1px solid #bdbdbd;
 }
 
 .registration-form__message .text-input {
   height: 100%;
 }
-
 
 .registration-form__message textarea::placeholder {
   position: absolute;
@@ -255,6 +258,5 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
-

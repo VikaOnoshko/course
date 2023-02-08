@@ -1,5 +1,4 @@
 .reviews__wrapper {
-  width: 1170px;
   padding-top: 50px;
   padding-bottom: 64px;
 }
@@ -11,9 +10,11 @@
 .reviews__cards {
   display: flex;
   justify-content: space-between;
+  margin: 0 -10px;
 }
 .reviews_card {
-  width: 370px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .customers-card__message {
@@ -33,6 +34,7 @@
 
 .customers-card__message > p {
   white-space: pre-line;
+  padding: 0 5px;
 }
 
 .customers-card__message::after {
@@ -42,7 +44,7 @@
   width: 30px;
   height: 20px;
   position: absolute;
-  left: 70px;
+  left: 25%;
   bottom: -20px;
 }
 
