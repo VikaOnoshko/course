@@ -10,24 +10,10 @@
 .design__button {
   width: 370px;
   height: 58px;
-  background: transparent;
-  border: 2px solid #ffffff;
-  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #ffffff;
   display: block;
   margin: 0 auto;
 }
 
-.design__button:hover {
-  background-color: rgb(246, 155, 155);
-}
 
 .design .section-header__title {
   color: #ffffff;

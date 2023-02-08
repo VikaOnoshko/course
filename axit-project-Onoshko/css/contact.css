@@ -7,6 +7,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 27px;
+
 }
 
 .contact-message-form__personal-information {
@@ -33,17 +35,6 @@
   color: #000000;
   border-bottom: 1px solid #BDBDBD;
 }
-
-.contact-message-form input::placeholder {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  color: #BDBDBD;
-}
-
 
 .contact-message-form__message .text-input {
   height: 100%;
@@ -74,34 +65,9 @@
   justify-content: center;
 }
 
-.contact__button-wrapper {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  align-items: center;
-  text-align: center;
-  margin-top: 27px;
-}
-
-.contact__button {
-  max-width: 370px;
-  width: 100%;
+.contact-message-form__button-wrapper .contact__button {
   width: 370px;
   height: 58px;
-  background: #ec7979;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #ffffff;
-}
-
-.contact__button:hover {
-  background-color: rgb(246, 155, 155);
 }

@@ -65,22 +65,8 @@ p.tab__discription-text {
 .tab__button {
   width: 270px;
   height: 58px;
-  background: #ec7979;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #ffffff;
-}
-
-.tab__button:hover {
-  background-color: rgb(246, 155, 155);
 }
 
 .tabs__header {
