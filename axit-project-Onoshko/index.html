@@ -5,45 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0c" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    
-    <link rel="stylesheet" href="./css/tabs.css" />
-    <link rel="stylesheet" href="./css/dignity.css" />
-    <link rel="stylesheet" href="./css/pricing.css" />
-    <link rel="stylesheet" href="./css/banner.css" />
-
-    <link rel="stylesheet" href="./css/section-header.css" />
     <title>Onoshko</title>
   </head>
 
   <body>
+
     <header class="header">
-      <div class="header__wrapper">
-      <div class="logo">
-        <a href="" class="logo__link">
-          <span>AX</span><span class="logo__name_highlight">IT</span>
-        </a>
-    </div>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item">
-          <a href="#!" class="header__link">Features</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">About</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">Pricing</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">Reviews</a>
-        </li>
-        <li class="header__item">
-          <a href="#!" class="header__link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="logo">
+            <a href="" class="logo__link">
+              <span>AX</span><span class="logo__name_highlight">IT</span>
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#!" class="header__link">Features</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">About</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">Pricing</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">Reviews</a>
+              </li>
+              <li class="header__item">
+                <a href="#!" class="header__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
     </header>
 
     <section class="banner">
@@ -69,7 +65,7 @@
                   </p>
                 </div>
               </div>
-              <button class="banner__button">Download</button>
+              <button type="button" class=" outlined banner__button">Download</button>
             </div>
             <div class="banner__registration-form">
               <form class="registration-form">
@@ -78,27 +74,24 @@
                     <h4>Try Your <span class="highlight">FREE</span> Trial Today</h4></div>
                 </div>
                 <div class="registration-form__body">
-                  <label class="text-input">
-                    <h6 class="text-input__label">Name</h6>
-                    <input name="name" type="text">
-                    <div class="text-input__underline">
+                  <form> 
+                    <div class="registration-form">
+                      <div class="registration-form__personal-information">
+                        <div class="text-input">
+                          <input name="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="text-input">
+                          <input name="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="text-input">
+                          <input name="password" type="password" placeholder="Password">
+                        </div>
+                      </div>
                     </div>
-                  </label>
-                  <label class="text-input">
-                    <h6 class="text-input__label">Email</h6>
-                    <input name="email" type="email">
-                    <div class="text-input__underline">
-                    </div>
-                  </label>
-                  <label class="text-input">
-                    <h6 class="text-input__label">Password</h6>
-                    <input name="password" type="password">
-                    <div class="text-input__underline">
-                    </div>
-                  </label>
+                    </form>
                 </div>
                 <div class="registration-form__footer">
-                  <button class="registration-form__submit">Get Started</button>
+                  <button type="submit" class="filled registration-form__submit">Get Started</button>
                 </div>
               </form>
             </div>
@@ -196,7 +189,7 @@
                     bibendum laoreet.</p>
                 </div>
                 <div class="tab__button-wrapper">
-                  <button class="tab__button">Download</button>
+                  <button type="button" class="filled tab__button">Download</button>
                 </div>
               </div>
             </div>
@@ -294,7 +287,7 @@
     
     <section class="pricing">
       <div class="container">
-        <div class="wrapper">
+        <div class="pricing__wrapper">
           <div class="section-header">
             <div class="section-header__title-wrapper">
               <h2 class="section-header__title">pricing options</h2>
@@ -412,5 +405,217 @@
         </div>
       </div>
     </section>
+
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__wrapper">
+          <div class="section-header">
+            <div class="section-header__title-wrapper">
+              <h2 class="section-header__title">what our customers are saying</h2>
+              </div>
+             <div class="section-header__line-wrapper">
+              <div class="section-header__line"></div>
+             </div>
+             <div class="section-header__quote-wrapper">
+              <p class="section-header__quote">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <div class="reviews__cards">
+          <div class="reviews_card">
+            <div class="customers-card__message">
+              <p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit.</p>
+            </div>
+            <div class="customers-card__author">
+              <div class="customers-card__author-avatar">
+                <img
+                src="./assets/img/Ellipse_7.png"
+                alt="light">
+              </div>
+              <div class="customers-card__author-profile">
+                <div class="customers-card__author-name">
+                  <h4>Davis Rhiel Madsen</h4>
+                </div>
+                <div class="customers-card__author-position">
+                  <h5>Manager</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews_card">
+            <div class="customers-card__header">
+              <div class="customers-card__message-wrapper">
+                <div class="customers-card__message">
+                  <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="customers-card__author">
+              <div class="customers-card__author-avatar">
+                <img
+                src="./assets/img/ava2.png"
+                alt="light">
+              </div>
+              <div class="customers-card__author-profile">
+                <div class="customers-card__author-name">
+                  <h4>Jaydon Rosser</h4>
+                </div>
+                <div class="customers-card__author-position">
+                  <h5>Manager</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews_card">
+            <div class="customers-card__header">
+              <div class="customers-card__message-wrapper">
+                <div class="customers-card__message">
+                  <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="customers-card__author">
+              <div class="customers-card__author-avatar">
+                <img
+                src="./assets/img/ava_3.png"
+                alt="light">
+              </div>
+              <div class="customers-card__author-profile">
+                <div class="customers-card__author-name">
+                  <h4>Davis Rhiel Madsen</h4>
+                </div>
+                <div class="customers-card__author-position">
+                  <h5>Cooper Dorwart</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="design">
+      <div class="design__shadow">
+        <div class="container">
+          <div class="design__wrapper">
+            <div class="section-header">
+              <div class="section-header__title-wrapper">
+                <h2 class="section-header__title">STYLISH AXURE DESIGN</h2>
+                </div>
+              <div class="section-header__line-wrapper">
+                <div class="section-header__line"></div>
+              </div>
+              <div class="section-header__quote-wrapper">
+                <p class="section-header__quote">
+                  Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+                </p>
+              </div>
+            </div>
+            <button  type="button" class=" outlined design__button">Download</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="section-header">
+            <div class="section-header__title-wrapper">
+              <h2 class="section-header__title">contact us</h2>
+            </div>
+            <div class="section-header__line-wrapper">
+              <div class="section-header__line"></div>
+            </div>
+            <div class="section-header__quote-wrapper">
+              <p class="section-header__quote">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+          <form> 
+            <div class="contact-message-form">
+              <div class="contact-message-form__personal-information">
+                <div class="text-input">
+                  <input name="name" type="text" placeholder="Name">
+                </div>
+                <div class="text-input">
+                  <input name="email" type="email" placeholder="Email">
+                </div>
+                <div class="text-input">
+                  <input name="password" type="password" placeholder="Password">
+                </div>
+              </div>
+              <div class="contact-message-form__message">
+                <div class="text-input">
+                  <textarea name="message" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="contact-message-form__button-wrapper">
+              <button type="submit" class="filled contact__button">Send Message</button>
+            </div>
+          </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+      <div class="social-media__social-network-list">
+            
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/F.png" 
+          alt="facebook"/>
+        </a>
+        
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/twitter.png" 
+          alt="twitter"/>
+        </a>
+        
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/in.png" 
+          alt="in"/>
+        </a>
+        
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/pinterest.png" 
+          alt="pinterest"/>
+        </a>
+        
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/inst.png" 
+          alt="inst"/>
+        </a>
+        
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/git.png" 
+          alt="github"/>
+        </a>
+        
+        <a class="social-media__social-network-link" href="">
+          <img class="social-media__social-network-logo" src="./assets/img/Vector.png" 
+          alt="facebook"/>
+        </a>
+      </div>
+      <div class="license">
+        <p class="license_text"> © 2015 Axure Themes </p>
+      </div>
+    </div>
+    </footer>
   </body>
 </html>

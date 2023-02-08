@@ -1,0 +1,27 @@
+.design {
+  background-image: url(../assets/img/design.png);
+}
+
+.design__shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px 0;
+}
+
+.design__button {
+  width: 370px;
+  height: 58px;
+  display: block;
+  margin: 0 auto;
+}
+
+.design .section-header__title {
+  color: #ffffff;
+}
+
+.design .section-header__line {
+  border-color: #ffffff;
+}
+
+.design .section-header__quote {
+  color: #ffffff;
+}

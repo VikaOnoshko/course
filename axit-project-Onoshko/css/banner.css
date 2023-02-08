@@ -4,23 +4,29 @@
   z-index: 2;
   width: 100%;
   background: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.header .container {
+  max-width: 1224px;
+  width: 100%;
 }
 
 .header__wrapper {
-  height: 75px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
   font-size: 30px;
   font-weight: 700;
   font-family: "Open Sans";
-
 }
-.logo.logo_large{
-font-size: 55px;
+.logo.logo_large {
+  font-size: 55px;
 }
 
 .logo__link {
@@ -88,7 +94,8 @@ font-size: 55px;
 }
 .social-media__title-wrapper {
   height: 60px;
-  width: 470px;
+  width: 100%;
+  max-width: 470px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -104,7 +111,6 @@ font-size: 55px;
 }
 
 .social-media__description {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -120,125 +126,137 @@ font-size: 55px;
   width: 100%;
 }
 
-.banner{
+.banner {
   background: url(../assets/img/bg.png);
 }
 
-
-.banner__wrapper{
+.banner__wrapper {
   display: flex;
   justify-content: space-between;
 }
-.banner__text{
+.banner__text {
   width: 670px;
 }
 
-.banner__shadow{
-  background-color: rgba(0,0,0,0.5);
+.banner__shadow {
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 208px 0 185px 0;
 }
 
 .banner__button {
   width: 270px;
   height: 58px;
-  background: transparent;
-  border: 2px solid #FFFFFF;
-  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #ffffff;
 }
 
+.banner__registration-form {
+  max-width: 470px;
+}
 
-.banner__registration-form{
-  width: 470px;
-  }
-
-.registration-form{
+.registration-form {
   width: 100%;
-  background-color:  #ffffff;
-  border-radius: 10px;
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
 }
-.registration-form__header{
-  padding: 0 50px;
+.registration-form__header {
   margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.registration-form__body {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.registration-form__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  text-transform: uppercase;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.registration-form__body{
-  padding: 0 50px;
-}
-
-.registration-form__title{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #333333;
-text-transform: uppercase;
-height: 90px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.registration-form__footer{
-  height: 60px;
-  width: 470px;
-}
-
-.registration-form__submit{
+.registration-form__submit {
   width: 100%;
-  height: 100%;
-  display: block;
-  background: #ec7979;
-  border: none;
-  margin-top: 75px;
-
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 0 0 10px 10px;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
 }
 
-.text-input{
+.text-input {
   width: 100%;
   height: 38px;
 }
 
-.text-input__label{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-color: #BDBDBD;
-margin: 0;
+.text-input__label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  margin: 0;
 }
 
-.text-input >input{
+.text-input > input,
+.text-input > textarea {
   border: none;
   outline: none;
   width: 100%;
   font-size: 10px;
-
+  resize: none;
 }
 
-.text-input__underline{
+.text-input__underline {
   width: 100%;
-  height: 1px;
-  background: #BDBDBD;
+  border-bottom: 1px solid #bdbdbd;
   overflow: hidden;
   margin-bottom: 33px;
 }
 
+.registration-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.registration-form__personal-information {
+  flex-grow: 1;
+  max-width: 570px;
+}
+
+.registration-form__personal-information .text-input {
+  margin-bottom: 33px;
+}
+.registration-form__personal-information .text-input:last-child {
+  margin-bottom: 75px;
+}
+
+.registration-form input {
+  height: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  position: relative;
+  color: #000000;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.registration-form__message .text-input {
+  height: 100%;
+}
+
+.registration-form__message textarea::placeholder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}

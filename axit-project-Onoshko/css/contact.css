@@ -1,0 +1,71 @@
+.contact__wrapper {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.contact-message-form {
+  display: flex;
+  margin: 0 -15px;
+  margin-bottom: 50px;
+}
+
+.contact-message-form__personal-information {
+  padding: 0 15px;
+  flex-grow: 1;
+}
+
+.contact-message-form__message {
+  flex-grow: 1;
+  max-width: 570px;
+  padding: 0 15px;
+}
+
+.contact-message-form__personal-information .text-input {
+  margin: 50px 0;
+}
+
+.contact-message-form__personal-information .text-input:first-child {
+  margin-top: 0;
+}
+
+.contact-message-form__personal-information .text-input:last-child {
+  margin-bottom: 0;
+}
+
+.contact-message-form textarea,
+.contact-message-form input {
+  height: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  position: relative;
+  color: #000000;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.contact-message-form__message .text-input {
+  height: 100%;
+}
+
+.contact-message-form input::placeholder,
+.contact-message-form textarea::placeholder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+
+.contact-message-form__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-message-form__button-wrapper .contact__button {
+  width: 370px;
+  height: 58px;
+  font-size: 18px;
+  line-height: 25px;
+}

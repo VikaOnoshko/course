@@ -1,0 +1,39 @@
+.footer {
+  background: #000000;
+  padding-top: 35px;
+  padding-bottom: 27px;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.license {
+  align-items: center;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.license_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .social-media__social-network-list {
+  width: 670px;
+}
+
+.footer .social-media__social-network-link {
+  width: 53px;
+  height: 53px;
+}
+
+.footer .social-media__social-network-logo {
+  width: 40px;
+  height: 40px;
+}
