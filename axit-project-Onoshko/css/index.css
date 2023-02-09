@@ -43,7 +43,9 @@ button.filled {
 }
 
 button.filled:hover {
-  background: #e98a8a;
+  color: black;
+  background: #ec7979;
+  opacity: 0.9;
 }
 
 button.outlined {
@@ -55,11 +57,16 @@ button.outlined {
   text-align: center;
   background: transparent;
   color: #ffffff;
-  transition: linear 0.5s;
+  transition: linear 0.2s;
   border-color: #ffffff;
 }
 
 button.outlined:hover {
   background-color: black;
   opacity: 0.4;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 1px 1px 1px 1px #0000004f;
 }
