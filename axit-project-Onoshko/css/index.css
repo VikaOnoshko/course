@@ -9,12 +9,13 @@
 @import url(../css/contact.css);
 @import url(../css/footer.css);
 @import url(../css/section-header.css);
+@import url(../banner.js);
 
 .container {
   margin: 0 auto;
   max-width: 1170px;
   box-sizing: border-box;
-  padding: 0 15px 0 15px;
+  padding: 0 16px 0 16px;
 }
 
 .wrapper_raw {

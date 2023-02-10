@@ -4,8 +4,6 @@
   z-index: 2;
   width: 100%;
   background: #000000;
-  display: flex;
-  justify-content: center;
 }
 
 .header .container {
@@ -91,7 +89,7 @@
 .social-media__social-network-link:hover path {
   fill: red;
 }
-. .social-media__about {
+.social-media__about {
   margin-right: 30px;
 }
 
@@ -288,4 +286,149 @@
   line-height: 19px;
   color: #bdbdbd;
 }
+
+
+.header__burger{
+  display: none;
+  width: 24px;
+  height: 18px;
+}
+
+ .header__burger button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.header__burger button:hover {
+transform:scale(1.1)
+}
+
+.header__burger button span{
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.header__burger .close {
+  display: none;
+  justify-content: center;
+  position: relative;
+}
+
+
+.header__burger .close span:first-child {
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.header__burger .close span:last-child {
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+
+
+.header__burger.header__burger_active .close {
+  display: flex;
+}
+
+
+.header__burger.header__burger_active .burger {
+  display: none;
+}
+
+
+
+.sidebar{
+  display: none;
+  position: absolute;
+  height: 100vh;
+  background: black;
+  transform: translateX(-100%);
+  left: 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.sidebar.sidebar_active{
+  transform: translateX(0);
+}
+.sidebar__link {
+  width: 100%;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px 20px 181px 20px ;
+}
+
+.sidebar__link{
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 600;
+line-height: 19px;
+font-size: 14px;
+line-height: 100%;
+text-decoration: none;
+color: #fff;
+}
+
+@media screen and (max-width:768px) {
+  .header__nav{
+  display: none;
+  }
+
+  .header__burger{
+    display: flex;
+    }
+    
+    .sidebar{
+    width: 100%;
+    display: block;
+    }
+
+    .logo{
+      display: none;
+    }
+
+    .section-header__title-wrapper section-header__title-wrapper_left{
+      display: flex;
+      justify-content: center;
+    }
+
+    .container{
+      flex-direction: column;
+    }
+
+    .section-header__title-wrapper_left{
+      justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+margin-bottom :43px;
+    }
+
+.section-header__title{
+  width: 100%;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+}
+
+
+}
+
 

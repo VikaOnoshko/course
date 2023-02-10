@@ -11,6 +11,7 @@
   <body>
 
     <header class="header">
+      
       <div class="container">
         <div class="header__wrapper">
           <div class="logo">
@@ -37,9 +38,28 @@
               </li>
             </ul>
           </nav>
-        </div>
-      </div>
-
+          <div class="header__burger">
+            <button onClick="onBurgerClick()" class="burger" type="button">
+             <span></span>
+             <span></span>
+             <span></span>
+            </button>  
+            <button onClick="onBurgerClick()" class="close" type="button">
+              <span></span>
+              <span></span>
+             </button> 
+              </div>  
+            </div>
+              </div>
+              <aside class="sidebar">
+                <div class="sidebar__list">
+                <a href="#Feature" class="sidebar__link" onclick="onSelectLink()">Feature</a>
+                <a href="#About" class="sidebar__link" onclick="onSelectLink()">About</a>
+                <a href="#Pricing" class="sidebar__link" onclick="onSelectLink()">Pricing</a>
+                <a href="#Reviews" class="sidebar__link" onclick="onSelectLink()">Reviews</a>
+                <a href="#Contact" class="sidebar__link" onclick="onSelectLink()">Contact</a>
+              </div>
+              </aside>
     </header>
 
     <section class="banner">
@@ -633,5 +653,7 @@
       </div>
     </div>
     </footer>
+
+    <script src="./js/banner.js"></script>
   </body>
 </html>
