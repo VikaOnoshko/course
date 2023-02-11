@@ -140,7 +140,7 @@
 }
 
 .social-media__social-network-link:nth-child(5):hover path {
-  fill: #eaea19
+  fill: #eaea19;
 }
 
 .social-media__social-network-link:nth-child(6):hover path {
@@ -148,12 +148,14 @@
 }
 
 .social-media__social-network-link:nth-child(7):hover circle,
-  .social-media__social-network-link:nth-child(7):hover path {
+.social-media__social-network-link:nth-child(7):hover path {
   fill: #f29738;
 }
 
 .banner {
   background: url(../assets/img/bg.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .banner__wrapper {
@@ -161,7 +163,8 @@
   justify-content: space-between;
 }
 .banner__text {
-  width: 670px;
+  max-width: 670px;
+  width: 100%;
 }
 
 .banner__shadow {
@@ -181,8 +184,9 @@
 .registration-form {
   width: 100%;
   background-color: #ffffff;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
 }
+
 .registration-form__header {
   margin-bottom: 45px;
   display: flex;
@@ -209,15 +213,20 @@
   align-items: center;
 }
 
+.registration-form__footer {
+  width: 100%;
+}
+
 .registration-form__submit {
   width: 100%;
   height: 60px;
   border-radius: 0px 0px 10px 10px;
+  padding: 0;
 }
 
 .text-input {
   width: 100%;
-  height: 38px;
+  max-height: 38px;
 }
 
 .text-input__label {
@@ -287,14 +296,13 @@
   color: #bdbdbd;
 }
 
-
-.header__burger{
+.header__burger {
   display: none;
   width: 24px;
   height: 18px;
 }
 
- .header__burger button {
+.header__burger button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -307,10 +315,10 @@
 }
 
 .header__burger button:hover {
-transform:scale(1.1)
+  transform: scale(1.1);
 }
 
-.header__burger button span{
+.header__burger button span {
   width: 100%;
   height: 2px;
   background-color: #ffffff;
@@ -322,7 +330,6 @@ transform:scale(1.1)
   position: relative;
 }
 
-
 .header__burger .close span:first-child {
   position: absolute;
   transform: rotate(45deg);
@@ -333,20 +340,15 @@ transform:scale(1.1)
   transform: rotate(-45deg);
 }
 
-
-
 .header__burger.header__burger_active .close {
   display: flex;
 }
-
 
 .header__burger.header__burger_active .burger {
   display: none;
 }
 
-
-
-.sidebar{
+.sidebar {
   display: none;
   position: absolute;
   height: 100vh;
@@ -356,7 +358,7 @@ transform:scale(1.1)
   transition: all 0.8s ease-in-out;
 }
 
-.sidebar.sidebar_active{
+.sidebar.sidebar_active {
   transform: translateX(0);
 }
 .sidebar__link {
@@ -367,68 +369,88 @@ transform:scale(1.1)
   justify-content: center;
 }
 
-.sidebar__list{
+.sidebar__list {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 16px 20px 181px 20px ;
+  padding: 16px 20px 181px 20px;
 }
 
-.sidebar__link{
-font-family: "Open Sans";
-font-style: normal;
-font-weight: 600;
-line-height: 19px;
-font-size: 14px;
-line-height: 100%;
-text-decoration: none;
-color: #fff;
+.sidebar__link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  font-size: 14px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #fff;
 }
 
-@media screen and (max-width:768px) {
-  .header__nav{
-  display: none;
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: none;
   }
 
-  .header__burger{
+  .header__burger {
     display: flex;
-    }
-    
-    .sidebar{
+  }
+  .header__wrapper {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .sidebar {
     width: 100%;
     display: block;
-    }
+  }
 
-    .logo{
-      display: none;
-    }
+  .banner .logo {
+    display: none;
+  }
 
-    .section-header__title-wrapper section-header__title-wrapper_left{
-      display: flex;
-      justify-content: center;
-    }
+  .banner__wrapper {
+    flex-direction: column;
+  }
 
-    .container{
-      flex-direction: column;
-    }
+  button.outlined.banner__button {
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .section-header__title-wrapper_left{
-      justify-content: center;
-display: flex;
-align-items: center;
-text-align: center;
-margin-bottom :43px;
-    }
+  .registration-form {
+    margin: 56px auto 50px;
+    max-width: 288px;
+    width: 100%;
+  }
 
-.section-header__title{
-  width: 100%;
-font-weight: 500;
-font-size: 36px;
-line-height: 42px;
-display: flex;
+  .registration-form__header {
+    padding: 0 28px 0 20px;
+    margin-bottom: 0px;
+  }
+
+  .registration-form__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .registration-form__body {
+    padding: 0 28px 0 20px;
+  }
+
+  .banner__button {
+    max-width: 288px;
+    width: 100%;
+    height: 50px;
+  }
+
+  input {
+    padding-bottom: 20px;
+  }
+
+  .registration-form__personal-information .text-input:last-child {
+    margin-bottom: 51px;
+  }
 }
-
-
-}
-
-
