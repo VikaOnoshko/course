@@ -17,10 +17,6 @@
   padding: 0 16px 0 16px;
 }
 
-.wrapper_raw {
-  display: flex;
-}
-
 .highlight {
   color: #ec7979;
 }

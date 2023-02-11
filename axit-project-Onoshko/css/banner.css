@@ -72,12 +72,23 @@
   padding: 18px 0;
 }
 
+.social-media__wrapper {
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .social-media__social-network-link {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 70px;
   width: 70px;
+}
+
+.social-media__social-network-link svg {
+width: 100%;
+height: 100%;
 }
 
 .social-media__social-network-link circle,
@@ -453,4 +464,46 @@
   .registration-form__personal-information .text-input:last-child {
     margin-bottom: 51px;
   }
+
+  .social-media{
+    padding: 31px 0 44px 7px;
+  }
+
+  .social-media__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-media__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .social-media .social-media__social-network-link {
+    width: 26px;
+    height: 26px;
+  }
+
+  .social-media__title-wrapper { 
+    height: 45px;
+    justify-content: center  ;
+    margin-bottom: 13px;
+  }
+
+ .social-media__description {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+
+  .social-media__description-wrapper{
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .social-media__about{
+    margin-right: 0px;
+  }
+
 }
