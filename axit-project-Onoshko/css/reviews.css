@@ -82,3 +82,50 @@
 .customers-card__author-position > h5 {
   font: inherit;
 }
+
+@media screen and (max-width: 768px) {
+  .reviews__cards {
+    flex-direction: column;
+  }
+
+  .customers-card__message {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .customers-card__author-avatar {
+    margin-right: 22px;
+  }
+
+  .customers-card__author-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .customers-card__author-position {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .customers-card__author-position {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .customers-card__author {
+    width: 100%;
+  }
+
+  .customers-card__author-avatar{
+    max-width: 57px;
+    width: 100%;
+  }
+
+  .customers-card__author-name{
+    max-width: 204px;
+    width: 100%;
+  }
+}

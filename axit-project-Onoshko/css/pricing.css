@@ -15,7 +15,8 @@
 }
 
 .pricing-option {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -99,4 +100,22 @@
   line-height: 21px;
   color: #86878b;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .pricing {
+    padding: 0px;
+  }
+
+  .pricing .section-header {
+    margin-bottom: 24px;
+  }
+
+  .pricing__options-list {
+    flex-direction: column;
+  }
+
+  .pricing-option {
+    margin-bottom: 27px;
+  }
 }

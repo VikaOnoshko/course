@@ -92,6 +92,9 @@
   .banner__shadow {
     padding: 0;
   }
+  .section-header {
+    margin-bottom: 0px;
+  }
 
   .section-header__title-wrapper_left {
     justify-content: center;
@@ -125,9 +128,6 @@
   .section-header__line {
     max-width: 134px;
     width: 100%;
-  }
-
-  .section-header__line {
     margin-top: 0px;
   }
 
@@ -137,7 +137,6 @@
 
   .section-header__quote-wrapper {
     margin-top: 0px;
-    padding-bottom: 42px;
   }
 
   .section-header__quote {
@@ -147,5 +146,28 @@
 
   .section-header_large {
     margin-bottom: 0px;
+  }
+
+  .section-header__title-wrapper {
+    height: 120px;
+  }
+
+  .section-header__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .dignity {
+    padding: 0px;
+  }
+
+  .section-header__line-wrapper {
+    padding-bottom: 25px;
+  }
+
+  .section-header__quote {
+    font-size: 13px;
+    line-height: 15px;
   }
 }

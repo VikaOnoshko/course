@@ -37,3 +37,25 @@
   width: 40px;
   height: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 37px 16px 45px 16px;
+  }
+
+  .social-media__social-network-link {
+    width: 26px;
+    height: 26px;
+  }
+
+  .license_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .license {
+    margin-top: 42px;
+    width: 100%;
+  }
+}
