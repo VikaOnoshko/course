@@ -25,7 +25,8 @@
 }
 
 .footer .social-media__social-network-list {
-  width: 670px;
+  max-width: 670px;
+  width: 100%;
 }
 
 .footer .social-media__social-network-link {
@@ -41,10 +42,10 @@
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
-    padding: 37px 16px 45px 16px;
+    padding: 35px 16px 45px 16px;
   }
 
-  .social-media__social-network-link {
+.footer .social-media__social-network-link {
     width: 26px;
     height: 26px;
   }
@@ -57,5 +58,6 @@
   .license {
     margin-top: 42px;
     width: 100%;
+
   }
 }
