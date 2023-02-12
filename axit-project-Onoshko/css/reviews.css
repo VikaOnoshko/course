@@ -105,9 +105,10 @@
 
   .reviews_card {
     min-width: 288px;
+    box-sizing: content-box;
     scroll-snap-align: center;
   }
-  
+
   .customers-card__message p {
     font-weight: 400;
     font-size: 14px;
@@ -186,5 +187,4 @@
     margin-bottom: 0px;
     padding-bottom: 24px;
   }
-
 }

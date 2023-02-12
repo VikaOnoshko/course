@@ -119,6 +119,9 @@
   .section-header__quote-wrapper {
     margin-top: 0px;
   }
+  .contact .section-header__quote-wrapper {
+    margin-bottom: 64px;
+  }
 
   .section-header__quote {
     font-size: 14px;
@@ -140,14 +143,15 @@
   }
 
   .section-header__line-wrapper {
-    padding-bottom: 25px;
+    padding-bottom: 16px;
   }
 
   .section-header__quote {
-    font-size: 13px;
-    line-height: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
   }
-  
+
   .section-header_large {
     margin-bottom: 42px;
   }
@@ -165,7 +169,20 @@
   }
 
   .section-header_large .section-header__line-wrapper {
-padding-bottom: 42px;
+    padding-bottom: 42px;
   }
-  
+
+  .contact .section-header__line-wrapper {
+    padding-bottom: 24px;
+  }
+
+  .contact .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contact .section-header {
+    margin-bottom: 64px;
+  }
 }

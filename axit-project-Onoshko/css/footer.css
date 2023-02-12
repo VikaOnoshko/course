@@ -45,7 +45,7 @@
     padding: 35px 16px 45px 16px;
   }
 
-.footer .social-media__social-network-link {
+  .footer .social-media__social-network-link {
     width: 26px;
     height: 26px;
   }
@@ -58,6 +58,5 @@
   .license {
     margin-top: 42px;
     width: 100%;
-
   }
 }

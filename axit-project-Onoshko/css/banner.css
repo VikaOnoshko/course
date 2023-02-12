@@ -73,7 +73,7 @@
 }
 
 .social-media__wrapper {
-  display:  flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -87,8 +87,8 @@
 }
 
 .social-media__social-network-link svg {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .social-media__social-network-link circle,
@@ -235,7 +235,7 @@ height: 100%;
   padding: 0;
 }
 
-.text-input {
+.registration-form .text-input {
   width: 100%;
   max-height: 38px;
 }
@@ -277,6 +277,7 @@ height: 100%;
 }
 
 .registration-form__personal-information .text-input {
+  margin-top: 0;
   margin-bottom: 33px;
 }
 .registration-form__personal-information .text-input:last-child {
@@ -426,7 +427,7 @@ height: 100%;
   .banner .logo {
     display: none;
   }
-  
+
   .banner__shadow {
     padding: 0;
   }
@@ -476,7 +477,7 @@ height: 100%;
     margin-bottom: 51px;
   }
 
-  .social-media{
+  .social-media {
     padding: 31px 0 44px 7px;
   }
 
@@ -486,7 +487,7 @@ height: 100%;
     width: 100%;
   }
 
-  .social-media__title{
+  .social-media__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -497,25 +498,24 @@ height: 100%;
     height: 26px;
   }
 
-  .social-media__title-wrapper { 
+  .social-media__title-wrapper {
     height: 45px;
-    justify-content: center  ;
+    justify-content: center;
     margin-bottom: 13px;
   }
 
- .social-media__description {
+  .social-media__description {
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
   }
 
-  .social-media__description-wrapper{
+  .social-media__description-wrapper {
     text-align: center;
     padding-bottom: 32px;
   }
-  
-  .social-media__about{
+
+  .social-media__about {
     margin-right: 0px;
   }
-
 }

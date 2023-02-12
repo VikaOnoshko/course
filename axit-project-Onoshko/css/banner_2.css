@@ -27,28 +27,22 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .design__shadow {
     padding: 0 0 58px 0;
-}
+  }
 
-.section-header__quote{
-  font-size: 14px;
-  line-height: 16px;
-}
+  .section-header__quote {
+    font-size: 14px;
+    line-height: 16px;
+  }
 
- .design .section-header {
+  .design .section-header {
     margin-bottom: 66px;
-}
+  }
 
-
-
-
-
-
-
-
-
-
-
+  .design .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

@@ -71,8 +71,34 @@
 }
 
 @media screen and (max-width: 768px) {
-  
   .contact-message-form {
     flex-direction: column;
+  }
+
+  .contact .contact__wrapper {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  .contact-message-form textarea {
+    min-height: 182px;
+  }
+
+  .text-input {
+    margin-top: 50px;
+  }
+
+  .contact .contact-message-form input {
+    padding: 2px 0 16px 0;
+  }
+
+  .contact-message-form__button-wrapper .contact__button {
+    height: 50px;
+  }
+
+  .contact .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
   }
 }
