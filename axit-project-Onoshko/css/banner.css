@@ -309,20 +309,23 @@ height: 100%;
 
 .header__burger {
   display: none;
-  width: 24px;
-  height: 18px;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
 }
 
 .header__burger button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
   padding: 0;
   background: transparent;
   border: none;
   cursor: pointer;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  width: 24px;
+  height: 18px;
 }
 
 .header__burger button:hover {
@@ -331,7 +334,7 @@ height: 100%;
 
 .header__burger button span {
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #ffffff;
 }
 
@@ -405,6 +408,10 @@ height: 100%;
 
   .header__burger {
     display: flex;
+    /* width: 56px;
+    height: 56px;
+    align-items: center;
+    justify-content: center; */
   }
   .header__wrapper {
     padding-left: 4px;
@@ -418,6 +425,10 @@ height: 100%;
 
   .banner .logo {
     display: none;
+  }
+  
+  .banner__shadow {
+    padding: 0;
   }
 
   .banner__wrapper {
@@ -457,7 +468,7 @@ height: 100%;
     height: 50px;
   }
 
-  input {
+  .registration-form__personal-information input {
     padding-bottom: 20px;
   }
 

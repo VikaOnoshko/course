@@ -74,6 +74,7 @@
 @media screen and (max-width: 768px) {
   .dignity__characteristics {
     flex-direction: column;
+    align-items: center;
   }
 
   .dignity .section-header {

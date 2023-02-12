@@ -113,9 +113,60 @@
 
   .pricing__options-list {
     flex-direction: column;
+    align-items: center;
   }
 
   .pricing-option {
     margin-bottom: 27px;
+  }
+
+  .pricing .section-header__line-wrapper {
+    padding-bottom: 24px;
+  }
+
+  .pricing .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pricing .pricing-option__name-wrapper {
+    height: 47px;
+  }
+
+  .pricing-option__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .pricing .pricing-option__price-wrapper {
+    height: 78px;
+  }
+
+  .pricing-option__price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .pricing .pricing-option__period-wrapper {
+    height: 39px;
+  }
+
+  .pricing .pricing-option__info-option {
+    height: 39px;
+  }
+
+  .pricing-option__period {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pricing-option__info-option-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
