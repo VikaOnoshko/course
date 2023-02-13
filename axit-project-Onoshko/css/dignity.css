@@ -6,10 +6,13 @@
 .dignity__characteristics {
   display: flex;
   justify-content: space-between;
+  margin: 0 -10px;
 }
 
 .dignity-card {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .dignity-card__header {
@@ -69,6 +72,17 @@
 }
 .dignity-card__description p {
   white-space: pre-line;
+}
+
+@media screen and (max-width: 1024px) {
+  .dignity {
+    padding-bottom: 60px;
+  }
+  .dignity .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 @media screen and (max-width: 768px) {

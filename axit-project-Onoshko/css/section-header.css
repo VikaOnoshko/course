@@ -83,8 +83,104 @@
   text-align: left;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .banner .section-header_large .section-header__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .banner .section-header_large .section-header__title-wrapper {
+    margin-bottom: 41px;
+    max-width: 454px;
+    width: 100%;
+  }
+
+  .banner .section-header__quote-wrapper {
+    margin-top: 31px;
+    max-width: 183px;
+    width: 100%;
+  }
+  .banner .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .banner .section-header_large {
+    margin-bottom: 31px;
+  }
+
+  .dignity .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .dignity .section-header__title-wrapper {
+    height: 120px;
+  }
+
+  .dignity .section-header__line {
+    width: 142px;
+  }
+
+  .dignity .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .dignity .section-header {
+    margin-bottom: 0px;
+  }
+
+  .dignity__characteristics {
+    margin-top: 32px;
+  }
+
+  .dignity-card__header {
+    margin-top: 0px;
+  }
+
+  .dignity-card {
+    padding-top: 34px;
+  }
+
+  .dignity-card__name-wrapper {
+    margin-top: 34px;
+    height: 82px;
+  }
+
+  .dignity-card__logo-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .dignity-card__logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .dignity-card__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .dignity-card__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .section-header__title-wrapper section-header__title-wrapper_left {
+  .section-header__title-wrapper .section-header__title-wrapper_left {
     display: flex;
     justify-content: center;
   }

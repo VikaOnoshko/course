@@ -45,6 +45,7 @@ button.filled:hover {
 }
 
 button.outlined {
+  border-width: 2px;
   cursor: pointer;
   font-family: "Open Sans";
   font-size: 18px;

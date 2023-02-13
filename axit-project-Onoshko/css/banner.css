@@ -133,7 +133,6 @@
 
 .social-media__social-network-list {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   width: 100%;
 }
@@ -176,6 +175,7 @@
 .banner__text {
   max-width: 670px;
   width: 100%;
+  margin-right: 30px;
 }
 
 .banner__shadow {
@@ -184,7 +184,8 @@
 }
 
 .banner__button {
-  width: 270px;
+  max-width: 270px;
+  width: 100%;
   height: 58px;
 }
 
@@ -199,7 +200,7 @@
 }
 
 .registration-form__header {
-  margin-bottom: 45px;
+  padding: 0 50px 0 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,6 +214,7 @@
 
 .registration-form__title {
   font-family: "Open Sans";
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -402,6 +404,94 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .header .container,
+  .banner .container {
+    padding: 0 20px 0 115px;
+  }
+
+  .registration-form__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .banner__text {
+    max-width: 455px;
+    /* margin-right: 37px; */
+  }
+
+  .section-header_white .section-header__line {
+    max-width: 115px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__shadow {
+    padding: 137px 0 106px 0;
+  }
+
+  .logo.logo_large {
+    margin-bottom: 38px;
+  }
+
+  .registration-form {
+    max-width: 398px;
+    min-width: 300px;
+  }
+
+  .registration-form input {
+    padding-bottom: 16px;
+  }
+
+  .registration-form__header {
+    margin-bottom: 45px;
+  }
+
+  .banner .banner__button {
+    max-width: 183px;
+    width: 100%;
+  }
+
+  .social-media {
+    padding: 0px 0px 13px 0px;
+  }
+
+  .social-media__social-network-list {
+    max-width: 570px;
+  }
+
+  .social-media__social-network-link {
+    width: 64px;
+    height: 64px;
+  }
+
+  .social-media__social-network-link svg {
+    width: 53px;
+    height: 53px;
+  }
+
+  .social-media__title-wrapper {
+    height: 45px;
+    margin-bottom: 13px;
+  }
+  .social-media__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .social-media__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .social-media__about {
+    margin-right: 20px;
+  }
+}
 @media screen and (max-width: 768px) {
   .header__nav {
     display: none;
@@ -447,11 +537,6 @@
     margin: 56px auto 50px;
     max-width: 288px;
     width: 100%;
-  }
-
-  .registration-form__header {
-    padding: 0 28px 0 20px;
-    margin-bottom: 0px;
   }
 
   .registration-form__title {
