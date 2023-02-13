@@ -434,6 +434,7 @@
 
   .banner__wrapper {
     flex-direction: column;
+    align-items: center;
   }
 
   button.outlined.banner__button {

@@ -117,10 +117,10 @@
   .tab__title-wrapper {
     max-height: 112px;
     margin-bottom: 29px;
+    justify-content: center;
   }
 
   .tab__title {
-    width: 100%;
     font-size: 18px;
     line-height: 25px;
   }
@@ -152,6 +152,7 @@
 
   .tab__text {
     padding: 0;
+    max-width: none;
   }
 
   .filled.tab__button {
@@ -165,4 +166,8 @@
     height: 50px;
     width: 100%;
   }
+
+  .tab__button-wrapper {
+justify-content: center;
+}
 }
