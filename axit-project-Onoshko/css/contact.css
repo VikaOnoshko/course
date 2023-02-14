@@ -70,6 +70,22 @@
   line-height: 25px;
 }
 
+@media screen and (max-width: 1024px) {
+  .contact-message-form__button-wrapper .contact__button {
+    max-width: 318px;
+  }
+
+  .contact input {
+    padding-bottom: 18px;
+  }
+
+  .contact .contact-message-form input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contact-message-form {
     flex-direction: column;
@@ -104,5 +120,5 @@
 
   .contact-message-form__message {
     max-width: none;
-}
+  }
 }

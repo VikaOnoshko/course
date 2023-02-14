@@ -177,8 +177,87 @@
     font-size: 14px;
     line-height: 16px;
   }
-}
 
+  .pricing .section-header__title-wrapper {
+    max-height: 120px;
+  }
+
+  .pricing .section-header__line {
+    width: 143px;
+  }
+
+  .pricing .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .pricing .section-header {
+    margin-bottom: 50px;
+  }
+
+  .pricing .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section-header__title-wrapper {
+    height: 120px;
+  }
+
+  .reviews .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .reviews .section-header__line {
+    max-width: 142px;
+  }
+
+  .rewiews .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .reviews .section-header {
+    margin-bottom: 32px;
+  }
+
+  .design .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .design .section-header__line {
+    max-width: 142px;
+  }
+
+  .design .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .design .section-header {
+    margin-bottom: 32px;
+  }
+
+  .contact .section-header__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .contact .section-header__line {
+    max-width: 144px;
+  }
+
+  .contact .section-header {
+    margin-bottom: 72px;
+  }
+
+  .contact .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section-header__title-wrapper .section-header__title-wrapper_left {
     display: flex;

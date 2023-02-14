@@ -39,6 +39,35 @@
   height: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+  .footer .social-media__social-network-list {
+    max-width: 482px;
+  }
+
+  .footer .social-media__social-network-link {
+    height: 45px;
+    width: 45px;
+  }
+
+  .footer .social-media__social-network-link svg {
+    height: 45px;
+    width: 45px;
+  }
+
+  .license_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    padding-bottom: 30px;
+  }
+
+  .license {
+    margin-top: 38px;
+  }
+}
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;

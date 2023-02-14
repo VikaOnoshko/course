@@ -86,6 +86,50 @@
   font: inherit;
 }
 
+@media screen and (max-width: 1024px) {
+  .reviews__wrapper {
+    padding: 50px 0 57px 0;
+  }
+
+  .customers-card__message {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 50px 0;
+    margin-bottom: 46px;
+  }
+
+  .customers-card__message::after {
+    width: 26px;
+    height: 20px;
+  }
+
+  .customers-card__author-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .customers-card__author-position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .customers-card__author-avatar {
+    margin-right: 22px;
+  }
+
+  .customers-card__author-avatar {
+    width: 63px;
+    height: 63px;
+  }
+
+  .customers-card__author-position {
+    margin-top: 9px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .reviews__cards {
     overflow-y: auto;

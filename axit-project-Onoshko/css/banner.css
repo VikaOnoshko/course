@@ -491,6 +491,10 @@
   .social-media__about {
     margin-right: 20px;
   }
+
+  .design .design__button {
+    max-width: 318px;
+  }
 }
 @media screen and (max-width: 768px) {
   .header__nav {

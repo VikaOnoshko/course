@@ -102,6 +102,56 @@
   text-transform: capitalize;
 }
 
+@media screen and (max-width: 1024px) {
+  .pricing-option__name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .pricing-option__price-wrapper {
+    height: 88px;
+  }
+
+  .pricing-option__price {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .pricing-option__period-wrapper {
+    height: 44px;
+  }
+
+  .pricing-option__info-option {
+    height: 44px;
+  }
+
+  .pricing__options-list {
+    margin: 0 -10px;
+  }
+
+  .pricing-option{
+    padding: 0px 10px;
+  }
+  
+  .pricing-option__period {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .pricing-option__name-wrapper {
+    height: 53px;
+  }
+
+  .pricing-option__info-option-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .pricing {
     padding: 0px;
