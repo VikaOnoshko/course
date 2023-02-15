@@ -341,27 +341,21 @@
   background-color: #ffffff;
 }
 
-.header__burger .close {
-  display: none;
+.header__burger.header__burger_active button {
   justify-content: center;
-  position: relative;
 }
 
-.header__burger .close span:first-child {
+.header__burger.header__burger_active span:first-child {
   position: absolute;
   transform: rotate(45deg);
 }
 
-.header__burger .close span:last-child {
+.header__burger.header__burger_active span:nth-child(2) {
   position: absolute;
   transform: rotate(-45deg);
 }
 
-.header__burger.header__burger_active .close {
-  display: flex;
-}
-
-.header__burger.header__burger_active .burger {
+.header__burger.header__burger_active span:last-child {
   display: none;
 }
 
