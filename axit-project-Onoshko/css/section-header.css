@@ -23,7 +23,8 @@
 }
 
 .section-header__line {
-  width: 170px;
+  max-width: 170px;
+  width: 100%;
   height: 0px;
   border: 1px solid #ec7979;
 }
@@ -80,4 +81,283 @@
 
 .section-header__quote_left {
   text-align: left;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .banner .section-header_large .section-header__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .banner .section-header_large .section-header__title-wrapper {
+    margin-bottom: 41px;
+    max-width: 454px;
+    width: 100%;
+  }
+
+  .banner .section-header__quote-wrapper {
+    margin-top: 31px;
+    max-width: 183px;
+    width: 100%;
+  }
+  .banner .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .banner .section-header_large {
+    margin-bottom: 31px;
+  }
+
+  .dignity .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .dignity .section-header__title-wrapper {
+    height: 120px;
+  }
+
+  .dignity .section-header__line {
+    width: 142px;
+  }
+
+  .dignity .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .dignity .section-header {
+    margin-bottom: 0px;
+  }
+
+  .dignity__characteristics {
+    margin-top: 32px;
+  }
+
+  .dignity-card__header {
+    margin-top: 0px;
+  }
+
+  .dignity-card {
+    padding-top: 34px;
+  }
+
+  .dignity-card__name-wrapper {
+    margin-top: 34px;
+    height: 82px;
+  }
+
+  .dignity-card__logo-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .dignity-card__logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .dignity-card__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .dignity-card__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pricing .section-header__title-wrapper {
+    max-height: 120px;
+  }
+
+  .pricing .section-header__line {
+    width: 143px;
+  }
+
+  .pricing .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .pricing .section-header {
+    margin-bottom: 50px;
+  }
+
+  .pricing .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section-header__title-wrapper {
+    height: 120px;
+  }
+
+  .reviews .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .reviews .section-header__line {
+    max-width: 142px;
+  }
+
+  .rewiews .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .reviews .section-header {
+    margin-bottom: 32px;
+  }
+
+  .design .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .design .section-header__line {
+    max-width: 142px;
+  }
+
+  .design .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+
+  .design .section-header {
+    margin-bottom: 32px;
+  }
+
+  .contact .section-header__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .contact .section-header__line {
+    max-width: 144px;
+  }
+
+  .contact .section-header {
+    margin-bottom: 72px;
+  }
+
+  .contact .section-header__quote-wrapper {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-header__title-wrapper .section-header__title-wrapper_left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-header__title-wrapper_left {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-header__quote_left {
+    text-align: center;
+    padding-top: 44px;
+  }
+
+  .section-header__line-wrapper_left {
+    justify-content: center;
+    padding-bottom: 42px;
+  }
+
+  .section-header__line {
+    max-width: 134px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .section-header__quote_left {
+    padding-top: 0px;
+  }
+
+  .section-header__quote-wrapper {
+    margin-top: 0px;
+  }
+  .contact .section-header__quote-wrapper {
+    margin-bottom: 64px;
+  }
+
+  .section-header__quote {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .section-header__title-wrapper {
+    height: 120px;
+  }
+
+  .section-header__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .dignity {
+    padding: 0px;
+  }
+
+  .section-header__line-wrapper {
+    padding-bottom: 16px;
+  }
+
+  .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .section-header_large {
+    margin-bottom: 42px;
+  }
+
+  .section-header_large .section-header__title-wrapper {
+    padding-bottom: 44px;
+    padding-top: 84px;
+    margin-bottom: 0px;
+  }
+
+  .section-header_large .section-header__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .section-header_large .section-header__line-wrapper {
+    padding-bottom: 42px;
+  }
+
+  .contact .section-header__line-wrapper {
+    padding-bottom: 24px;
+  }
+
+  .contact .section-header__quote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contact .section-header {
+    margin-bottom: 64px;
+  }
 }

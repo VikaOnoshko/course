@@ -25,7 +25,8 @@
 }
 
 .footer .social-media__social-network-list {
-  width: 670px;
+  max-width: 670px;
+  width: 100%;
 }
 
 .footer .social-media__social-network-link {
@@ -36,4 +37,55 @@
 .footer .social-media__social-network-logo {
   width: 40px;
   height: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .social-media__social-network-list {
+    max-width: 482px;
+  }
+
+  .footer .social-media__social-network-link {
+    height: 45px;
+    width: 45px;
+  }
+
+  .footer .social-media__social-network-link svg {
+    height: 45px;
+    width: 45px;
+  }
+
+  .license_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    padding-bottom: 30px;
+  }
+
+  .license {
+    margin-top: 38px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 35px 16px 45px 16px;
+  }
+
+  .footer .social-media__social-network-link {
+    width: 26px;
+    height: 26px;
+  }
+
+  .license_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .license {
+    margin-top: 42px;
+    width: 100%;
+  }
 }

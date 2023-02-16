@@ -11,6 +11,7 @@
   <body>
 
     <header class="header">
+      
       <div class="container">
         <div class="header__wrapper">
           <div class="logo">
@@ -37,9 +38,25 @@
               </li>
             </ul>
           </nav>
+          <div class="header__burger">
+            <button onClick="onBurgerClick()" class="burger" type="button">
+             <span></span>
+             <span></span>
+             <span></span>
+            </button>  
+         
+          </div>  
         </div>
       </div>
-
+      <aside class="sidebar">
+        <div class="sidebar__list"onclick="onSelectLink()">
+        <a href="#Feature" class="sidebar__link" >Feature</a>
+        <a href="#About" class="sidebar__link" >About</a>
+        <a href="#Pricing" class="sidebar__link" >Pricing</a>
+        <a href="#Reviews" class="sidebar__link" >Reviews</a>
+        <a href="#Contact" class="sidebar__link" >Contact</a>
+      </div>
+      </aside>
     </header>
 
     <section class="banner">
@@ -60,9 +77,7 @@
                   <div class="section-header__line"></div>
                 </div>
                 <div class="section-header__quote-wrapper">
-                  <p class="section-header__quote section-header__quote_left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
+                  <p class="section-header__quote section-header__quote_left">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
               <button type="button" class=" outlined banner__button">Download</button>
@@ -74,21 +89,17 @@
                     <h4>Try Your <span class="highlight">FREE</span> Trial Today</h4></div>
                 </div>
                 <div class="registration-form__body">
-                  <form> 
-                    <div class="registration-form">
-                      <div class="registration-form__personal-information">
-                        <div class="text-input">
-                          <input name="name" type="text" placeholder="Name">
-                        </div>
-                        <div class="text-input">
-                          <input name="email" type="email" placeholder="Email">
-                        </div>
-                        <div class="text-input">
-                          <input name="password" type="password" placeholder="Password">
-                        </div>
-                      </div>
+                  <div class="registration-form__personal-information">
+                    <div class="text-input">
+                      <input name="name" type="text" placeholder="Name">
                     </div>
-                    </form>
+                    <div class="text-input">
+                      <input name="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="text-input">
+                      <input name="password" type="password" placeholder="Password">
+                    </div>
+                  </div>
                 </div>
                 <div class="registration-form__footer">
                   <button type="submit" class="filled registration-form__submit">Get Started</button>
@@ -102,7 +113,7 @@
 
     <section class="social-media">
       <div class="container">
-        <div class="wrapper wrapper_raw">
+        <div class="social-media__wrapper">
           <div class="social-media__about">
             <div class="social-media__title-wrapper">
               <h4 class="social-media__title">Social Media</h4>
@@ -633,5 +644,7 @@
       </div>
     </div>
     </footer>
+
+    <script src="./js/banner.js"></script>
   </body>
 </html>

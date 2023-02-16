@@ -6,10 +6,13 @@
 .dignity__characteristics {
   display: flex;
   justify-content: space-between;
+  margin: 0 -10px;
 }
 
 .dignity-card {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .dignity-card__header {
@@ -57,7 +60,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8px;
 }
 .dignity-card__description {
   text-align: center;
@@ -66,5 +68,78 @@
   font-size: 18px;
   line-height: 21px;
   font-family: "Raleway", sans-serif;
+  margin-top: 0px;
+}
+.dignity-card__description p {
   white-space: pre-line;
+}
+
+@media screen and (max-width: 1024px) {
+  .dignity {
+    padding-bottom: 60px;
+  }
+  .dignity .section-header__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dignity__characteristics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dignity .section-header {
+    margin-bottom: 50px;
+  }
+
+  .dignity-card__header {
+    height: 147px;
+    align-items: center;
+  }
+
+  .dignity__characteristics {
+    margin-bottom: 50px;
+  }
+
+  .dignity-card {
+    max-width: 288px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .dignity-card__logo-wrapper {
+    height: 80px;
+    width: 80px;
+  }
+  .dignity-card__logo {
+    height: 56px;
+    width: 56px;
+  }
+  .dignity-card__header {
+    margin-top: 0px;
+  }
+
+  .dignity-card__name-wrapper {
+    margin-top: 0;
+    height: 82px;
+    margin-bottom: 9px;
+  }
+
+  .dignity-card__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .dignity-card__description-wrapper {
+    margin-top: 0px;
+  }
+
+  .dignity-card__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
