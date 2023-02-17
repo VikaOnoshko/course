@@ -34,7 +34,6 @@
 }
 
 .customers-card__message > p {
-  white-space: pre-line;
   padding: 0 5px;
 }
 
@@ -86,6 +85,10 @@
   font: inherit;
 }
 
+.customers-card_radio {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .reviews__wrapper {
     padding: 50px 0 57px 0;
@@ -128,12 +131,16 @@
   .customers-card__author-position {
     margin-top: 9px;
   }
+
+
+
 }
 
 @media screen and (max-width: 768px) {
   .reviews__cards {
     overflow-y: auto;
     scroll-snap-type: x mandatory;
+    margin-bottom: 32px;
   }
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -206,7 +213,7 @@
 
   .reviews__wrapper {
     padding-top: 0px;
-    padding-bottom: 73px;
+    padding-bottom: 31px;
   }
 
   .reviews .section-header__title {
@@ -230,5 +237,14 @@
   .reviews .section-header {
     margin-bottom: 0px;
     padding-bottom: 24px;
+
+
   }
+
+  .customers-card_radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }

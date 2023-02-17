@@ -398,6 +398,7 @@
   color: #fff;
 }
 
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .header .container,
   .banner .container {
@@ -436,7 +437,7 @@
   }
 
   .registration-form input {
-    padding-bottom: 16px;
+    padding-bottom: 19px;
   }
 
   .registration-form__header {
@@ -461,10 +462,6 @@
     height: 64px;
   }
 
-  .social-media__social-network-link svg {
-    width: 53px;
-    height: 53px;
-  }
 
   .social-media__title-wrapper {
     height: 45px;
@@ -507,6 +504,10 @@
     padding-right: 4px;
   }
 
+  .banner__text{
+    margin-right: 0px;
+  }
+  
   .sidebar {
     width: 100%;
     display: block;
@@ -522,7 +523,7 @@
 
   .banner__wrapper {
     flex-direction: column;
-    align-items: center;
+   align-items: center;
   }
 
   button.outlined.banner__button {
