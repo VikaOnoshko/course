@@ -1,0 +1,177 @@
+@import url(./reset.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+
+.reviews {
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1334px;
+  padding: 0 10px;
+  box-sizing: content-box;
+}
+.wrapper {
+  padding: 34px 50px 49px 50px;
+  font-family: "Montserrat";
+  background: #fbf7f6;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.reviews__form {
+}
+
+.reviews__form-header {
+  margin-bottom: 25px;
+}
+
+.reviews__form-title > h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 166.67%;
+}
+
+.reviews__form-body {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.reviews__form-contacts {
+  margin: 0 -19px;
+}
+
+.reviews__form-label {
+  width: 100%;
+}
+
+.reviews__form-contacts .reviews__form-label {
+  max-width: 387px;
+  padding: 0 19px;
+}
+
+.reviews__form-label textarea,
+.reviews__form-label input {
+  background: #f9f0ee;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 30px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.04em;
+}
+
+.reviews__form-label textarea {
+  min-height: 188px;
+  padding: 18px 25px;
+}
+
+.reviews__form-label input {
+  padding: 5px 25px;
+}
+
+.reviews__form-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__form-footer {
+  display: flex;
+}
+
+.reviews__form-button {
+  margin-right: 30px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.filed-button {
+  width: 100%;
+  max-width: 250px;
+  background: #ffb0ba;
+  box-shadow: 3px 3px 0px 3px #de8e98;
+  border-radius: 100px;
+  min-height: 63px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #9a3c48;
+  border: none;
+}
+
+.reviews__form-confirmation {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__form-confirmation p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+
+  width: 26px;
+  height: 23px;
+  background: #f9f0ee;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 60%;
+  height: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-image: url(../assets/checked.png);
+  object-fit: cover;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__form-confirmation p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .reviews__form-button {
+    max-width: 200px;
+    margin-right: 25px;
+  }
+
+  .filed-button {
+    min-height: 53px;
+  }
+
+  .reviews__form-title > h3 { 
+    font-size: 20px;
+  }
+}
