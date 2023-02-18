@@ -105,6 +105,12 @@
   text-align: center;
   color: #9a3c48;
   border: none;
+  cursor: pointer;
+}
+
+.filed-button:hover {
+  background: #f8c0c8;
+  box-shadow: 3px 3px 0px 3px #e6aab4;
 }
 
 .reviews__form-confirmation {
@@ -212,7 +218,7 @@ input[type="checkbox"]:checked::before {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .reviews__form-title > h3 {
     font-size: 20px;
     line-height: 150%;
@@ -276,5 +282,5 @@ input[type="checkbox"]:checked::before {
 
   .reviews__form-title > h3 {
     font-size: 18px;
-}
+  }
 }
