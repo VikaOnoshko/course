@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <section class="weather">
+      <div class="container">
+        <div class="wrapper">
+          <header class="weather__header">
+            <div class="weather__setting setting">
+              <button type="button" class="setting__refresh"></button>
+              <select name="" class="setting__languge">
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+              </select>
+              <div class="setting__degrees">
+                <label class="setting__degrees-label">
+                  <h6>F</h6>
+                  <input type="radio" name="degrees" />
+                </label>
+                <label class="setting__degrees-label">
+                  <h6>C</h6>
+                  <input type="radio" name="degrees" />
+                </label>
+              </div>
+            </div>
+            <div class="weather__search">
+              <label class="weather__search-label">
+                <input
+                  name="text"
+                  type="text"
+                  placeholder="Search city or ZIP"
+                />
+              </label>
+              <button class="wether__search-button">search</button>
+            </div>
+          </header>
+          <main class="wether__banner banner">
+            <div class="banner__wrapper">
+              <div class="banner__information">
+                <div class="banner__location">
+                  <h3>Minsk, Belarus</h3>
+                </div>
+                <div class="banner__date-time">
+                  <div class="banner__date">
+                    <span>Mon 28 October</span>
+                  </div>
+                  <div class="banner_time">
+                    <time>17:23</time>
+                  </div>
+                </div>
+                <div class="banner__siting">
+                  <div class="banner__number">
+                    <span>10</span>
+                    <img src="assets/images/cloud_big.png" alt="cloud" />
+                  </div>
+                  <div class="banner_parameters">
+                    <p>overcast Feels like: 7° Wind: 2 m/s Humidity: 83%</p>
+                  </div>
+                </div>
+                <div class="banner__forecasts">
+                  <div class="banner__forecasts-day">
+                    <div class="banner__forecasts-day-of-week"></div>
+                    <div class="banner__forecasts-day-degrees"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="banner__standing">
+                <div class="banner_standing-map">
+                  <div class="banner__stading-locality"></div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

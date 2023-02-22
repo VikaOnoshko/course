@@ -1,0 +1,96 @@
+@import url(./reset.css);
+@import url(./root.css);
+@import url(./main.css);
+
+.weather__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wether__banner {
+  margin-top: 57px;
+}
+
+.banner {
+}
+.banner__wrapper {
+}
+.banner__information {
+}
+
+.banner__lokation {
+  max-width: 396px;
+  width: 100%;
+}
+
+
+.banner__location h3 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.banner__date-time {
+  display: flex;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.banner__date {
+  margin-right: 18px;
+}
+.banner__time {
+
+}
+
+
+.banner__site {
+    display: flex;
+}
+
+.banner__number{
+width: 100%;
+position: relative;
+}
+
+
+.banner__number span {
+ font-style: normal;
+font-weight: 700;
+font-size: 306px;
+line-height: 373px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.banner__number img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+.banner_parameters {
+}
+.banner__forecasts {
+}
+.banner__forecasts-day {
+}
+.banner__forecasts-day-of-the-week {
+}
+.banner__forecasts-day-degrees {
+}
+.banner__standing {
+}
+.banner__standing-map {
+}
+.banner__stading-locality {
+}

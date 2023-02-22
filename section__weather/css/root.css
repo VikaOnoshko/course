@@ -1,0 +1,9 @@
+/* -----------------------КОНСТАНТЫ:----------------------------------------------------------------------- */
+:root {
+  --default-text-family: "Montserrat", sans-serif;
+  --default-text-color: #ffffff;
+  --primary-text-color: rgba(255, 255, 255);
+  --secondary-color: rgba(255, 255, 255, 0.4);
+  --primary-color: rgba(174, 181, 185, 0.5);
+  --secondary-color: rgba(76, 82, 85, 0.4);
+}

@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap);
+
+body{
+    font-family: var(--default-text-family);
+}
+
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(8, 15, 26, 0.59) 0%, rgba(17, 17, 46, 0.46) 100%);
+    padding: 40px 90px 96px 90px;
+}
+
