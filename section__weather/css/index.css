@@ -49,6 +49,9 @@
 
 }
 
+.banner__siting{
+  display: flex;
+}
 
 .banner__site {
     display: flex;
@@ -77,16 +80,49 @@ color: #FFFFFF;
 }
 
 
+.banner_parameters p {
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 37px;
+text-transform: uppercase;
+color: #FFFFFF;
 
-.banner_parameters {
+
 }
 .banner__forecasts {
+  display: flex ;
 }
 .banner__forecasts-day {
+
 }
-.banner__forecasts-day-of-the-week {
+.banner__forecasts-day-of-week h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
 }
-.banner__forecasts-day-degrees {
+
+.banner__forecasts-day-degrees::after{
+  content:"#xB0";
+  height: 10px;
+  width: 20px;
+  top: 0;
+  right: 0;
+  color: white;
+
+}
+
+.banner__forecasts-day-degrees h4 {
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 98px;
+text-transform: uppercase;
+color: #FFFFFF;
+
 }
 .banner__standing {
 }
