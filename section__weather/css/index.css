@@ -105,13 +105,18 @@ color: #FFFFFF;
   
 }
 
+.banner__forecasts-day-degrees{
+  position: relative;
+}
 .banner__forecasts-day-degrees::after{
-  content:"#xB0";
-  height: 10px;
-  width: 20px;
-  top: 0;
+  content:"\00B0";
+  font-weight: 600;
+font-size: 80px;
+top: 0;
   right: 0;
+  position: absolute;
   color: white;
+  display: inline-block;
 
 }
 
