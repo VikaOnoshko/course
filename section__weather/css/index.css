@@ -2,6 +2,32 @@
 @import url(./root.css);
 @import url(./main.css);
 
+.weather {
+  position: relative;
+  background: url(../assets/images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weather::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 15, 26, 0.59) 0%,
+    rgba(17, 17, 46, 0.46) 100%
+  );
+}
+
+.weather .container {
+  position: relative;
+}
+
+
 .weather__header {
   display: flex;
   align-items: center;
@@ -14,9 +40,15 @@
 
 .banner {
 }
+
 .banner__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
+
 .banner__information {
+  width: 100%;
+  max-width: 600px;
 }
 
 .banner__lokation {
@@ -24,14 +56,13 @@
   width: 100%;
 }
 
-
 .banner__location h3 {
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 54px;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 4px;
 }
 
 .banner__date-time {
@@ -46,88 +77,119 @@
   margin-right: 18px;
 }
 .banner__time {
-
 }
 
-.banner__siting{
+.banner__siting {
   display: flex;
+  padding: 75px 0;
+  align-items: flex-end;
+  position: relative;
+  justify-content: space-between;
 }
 
-.banner__site {
-    display: flex;
+.banner__degree {
+  position: relative;
 }
 
-.banner__number{
-width: 100%;
-position: relative;
+.banner__degree h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 306px;
+  line-height: 215px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-
-.banner__number span {
- font-style: normal;
-font-weight: 700;
-font-size: 306px;
-line-height: 373px;
-text-transform: uppercase;
-color: #FFFFFF;
-
+.banner__degree h1::after {
+  content: "\00B0";
+  font-size: 100px;
+  line-height: 70px;
+  position: absolute;
+  top: 0;
+  right: -75px;
+  z-index: 1;
 }
 
-.banner__number img {
-    position: absolute;
-    right: 0;
-    top: 0;
+.banner__wether-img {
 }
 
-
-.banner_parameters p {
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 37px;
-text-transform: uppercase;
-color: #FFFFFF;
-
-
+.banner__wether-img img {
+  position: absolute;
+  width: 162px;
+  height: 102px;
+  top: 0;
+  left: 55%;
 }
+
+.banner__parameters {
+  margin-left: 30px;
+}
+
+.banner__parameters p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.banner__parameters p:last-child {
+  margin-bottom: -15px;
+}
+
 .banner__forecasts {
-  display: flex ;
+  display: flex;
+  position: relative;
+  max-width: 582px;
+  justify-content: space-between;
 }
-.banner__forecasts-day {
 
+.banner__forecasts-day {
+  position: relative;
 }
 .banner__forecasts-day-of-week h4 {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
   text-transform: uppercase;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
 
-.banner__forecasts-day-degrees{
+.banner__forecasts-day-degrees {
   position: relative;
+  max-width: 88px;
 }
-.banner__forecasts-day-degrees::after{
-  content:"\00B0";
+
+
+.banner__forecasts-day-degrees h4 {
+  font-style: normal;
   font-weight: 600;
-font-size: 80px;
-top: 0;
+  font-size: 80px;
+  /* line-height: 98px; */
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #ffffff;
+  vertical-align: bottom;
+}
+
+
+.banner__forecasts-day-degrees h4::after {
+  content: "\00B0";
+  font-weight: 600;
+  font-size: 80px;
+
+  top: 0;
   right: 0;
   position: absolute;
   color: white;
   display: inline-block;
-
 }
 
-.banner__forecasts-day-degrees h4 {
-font-style: normal;
-font-weight: 600;
-font-size: 80px;
-line-height: 98px;
-text-transform: uppercase;
-color: #FFFFFF;
-
+.banner__forecasts-day-cloud img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
 }
 .banner__standing {
 }
