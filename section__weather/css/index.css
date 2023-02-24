@@ -27,7 +27,6 @@
   position: relative;
 }
 
-
 .weather__header {
   display: flex;
   align-items: center;
@@ -147,6 +146,9 @@
 .banner__forecasts-day {
   position: relative;
 }
+.banner__forecasts-day-of-week {
+  margin-bottom: 5px;
+}
 .banner__forecasts-day-of-week h4 {
   font-weight: 700;
   font-size: 22px;
@@ -155,11 +157,14 @@
   color: #ffffff;
 }
 
+.banner__forecasts-body {
+display: flex;
+}
+
 .banner__forecasts-day-degrees {
   position: relative;
   max-width: 88px;
 }
-
 
 .banner__forecasts-day-degrees h4 {
   font-style: normal;
@@ -172,25 +177,21 @@
   vertical-align: bottom;
 }
 
-
 .banner__forecasts-day-degrees h4::after {
   content: "\00B0";
-  font-weight: 600;
-  font-size: 80px;
+}
 
-  top: 0;
-  right: 0;
-  position: absolute;
-  color: white;
-  display: inline-block;
+.banner__forecasts-day-cloud {
+  width: 66px;
+  height: 42px;
+  margin-left: 15px;
 }
 
 .banner__forecasts-day-cloud img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
+
 .banner__standing {
 }
 .banner__standing-map {
