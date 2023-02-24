@@ -43,6 +43,7 @@
 .banner__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .banner__information {
@@ -195,6 +196,11 @@
   height: 100%;
 }
 
+.banner_standing {
+  display: flex;
+  align-items: flex-end;
+}
+
 .banner_standing-map {
   max-height: 398px;
   max-width: 375px;
@@ -212,6 +218,7 @@
 
 .banner__stading-locality {
   text-align: right;
+  margin-top: 15px;
 }
 
 .banner__stading-locality span {
