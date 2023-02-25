@@ -191,6 +191,7 @@
 
 .banner__registration-form {
   max-width: 470px;
+  width: 100%;
 }
 
 .registration-form {
@@ -205,6 +206,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 45px;
 }
 
 .registration-form__body {
@@ -294,6 +296,7 @@
   position: relative;
   color: #000000;
   border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 19px;
 }
 
 .registration-form__message .text-input {
@@ -436,11 +439,7 @@
   }
 
   .registration-form input {
-    padding-bottom: 19px;
-  }
-
-  .registration-form__header {
-    margin-bottom: 45px;
+    padding-bottom: 35px;
   }
 
   .banner .banner__button {
@@ -460,7 +459,6 @@
     width: 64px;
     height: 64px;
   }
-
 
   .social-media__title-wrapper {
     height: 45px;
@@ -503,10 +501,10 @@
     padding-right: 4px;
   }
 
-  .banner__text{
+  .banner__text {
     margin-right: 0px;
   }
-  
+
   .sidebar {
     width: 100%;
     display: block;
@@ -522,7 +520,7 @@
 
   .banner__wrapper {
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
 
   button.outlined.banner__button {
@@ -535,6 +533,12 @@
     margin: 56px auto 50px;
     max-width: 288px;
     width: 100%;
+    min-width: 0;
+  }
+
+  .registration-form__header {
+    margin-bottom: 0;
+    padding: 0 20px;
   }
 
   .registration-form__title {
