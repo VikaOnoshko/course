@@ -142,12 +142,11 @@ select {
 
 .weather__search-label::after {
   position: absolute;
-  content: "\e91e";;
+  content: "\e91e";
   font-family: var(--icon);
-  top:13px;
+  top: 13px;
   right: 14px;
   color: var(--secondary-color);
-
 }
 
 .weather__search-label input::placeholder {
@@ -231,8 +230,6 @@ button.setting__refresh {
   align-items: center;
 }
 
-
-
 /* .setting__refresh::before{
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -243,12 +240,10 @@ button.setting__refresh {
   top:10px
 } */
 
-
-.setting__refresh::after{
+.setting__refresh::after {
   content: "\ea2e";
   font-family: var(--icon);
   color: var(--default-text-color);
-  
 }
 
 .banner__degree {
@@ -393,3 +388,141 @@ button.setting__refresh {
   text-transform: capitalize;
   color: #ffffff;
 }
+
+@media screen and (max-width: 1340px) {
+  .banner__degree h1 {
+    font-size: 270px;
+  }
+  .banner__degree h1 {
+    font-size: 290px;
+  }
+
+  .banner__wether-img img {
+    left: 340px;
+  }
+  .banner__siting {
+    justify-content: space-around;
+  }
+
+  .banner__degree h1::after {
+    right: -17px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .banner__degree h1 {
+    font-size: 250px;
+  }
+
+  .banner__wether-img img {
+    left: 317px;
+  }
+
+  .banner_standing-map img {
+    width: 353px;
+    -webkit-mask-size: 353px 398px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+.setting__degrees {
+  margin-left: 20px;
+}
+  .weather__select-wrapper {
+    margin-left: 20px;
+  }
+
+  .banner__wrapper {
+    align-items: center;
+}
+.banner__location h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+  .banner_standing-map img {
+    width: 340px;
+    -webkit-mask-size: 340px 398px;
+  }
+
+  .banner__stading-locality span {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+  }
+
+  .setting__degrees {
+    margin-left: 20px;
+  }
+
+  .weather__search-label input {
+    width: 250px;
+  }
+
+  .banner_standing-map img {
+    width: 350px;
+    -webkit-mask-size: 350px 398px;
+  }
+
+  .banner__stading-locality {
+    margin-top: 5px;
+  }
+
+  .banner__siting {
+    justify-content: space-evenly;
+  }
+}
+
+
+@media screen and (max-width: 1005px) {
+  .banner__degree h1 {
+    font-size: 250px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .banner__degree h1 {
+    font-size: 210px;
+}
+
+.banner__wether-img img {
+  left: 280px;
+}
+
+.banner__degree h1::after {
+  font-size: 90px;
+}
+
+.banner__wether-img img {
+  width: 160px;
+  height: 94px;
+}
+.banner__forecasts {
+  max-width: 530px;
+}
+
+.banner__siting {
+  padding: 65px 0;
+}
+
+.banner_standing-map img {
+  max-width: 300px;
+  width: 100%;
+  -webkit-mask-size: 300px 360px;}
+
+.banner__parameters p {
+  font-size: 25px;
+  line-height: 40px;
+}
+}
+
+@media screen and (max-width: 940px) {
+  .banner__wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+}
+

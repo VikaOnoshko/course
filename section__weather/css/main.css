@@ -1,17 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap);
 
-body{
-    font-family: var(--default-text-family);
+body {
+  font-family: var(--default-text-family);
 }
 
-.container{
-    max-width: 1260px;
-    margin: 0 auto;
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
 }
 
-.wrapper{
+.wrapper {
+  width: 100%;
+  padding: 40px 0 96px 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .wrapper {
+    padding: 30px 0 80px 0;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .wrapper {
     width: 100%;
-    padding: 40px 0 96px 0
+    padding: 40px 20px 40px 20px;
+  }
 }
-
-
