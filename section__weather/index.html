@@ -14,18 +14,20 @@
           <header class="weather__header">
             <div class="weather__setting setting">
               <button type="button" class="setting__refresh"></button>
-              <select name="" class="setting__languge">
+              <div class="weather__select-wrapper">
+              <select name="language" class="setting__languge">
                 <option value="en">EN</option>
                 <option value="ru">RU</option>
               </select>
+            </div>
               <div class="setting__degrees">
+                <input id="F" checked type="radio" name="degrees" />
                 <label class="setting__degrees-label">
                   <h6>F</h6>
-                  <input type="radio" name="degrees" />
                 </label>
-                <label class="setting__degrees-label">
+                <input id="C" type="radio" name="degrees" />
+                <label class="setting__degrees-label_active">
                   <h6>C</h6>
-                  <input type="radio" name="degrees" />
                 </label>
               </div>
             </div>
@@ -69,7 +71,7 @@
                     <p>Humidity:83%</p>
                   </div>
                 </div>
-                
+
                 <div class="banner__forecasts">
                   <div class="banner__forecasts-day">
                     <div class="banner__forecasts-day-of-week">
@@ -84,7 +86,7 @@
                       </div>
                     </div>
                   </div>
-    
+
                   <div class="banner__forecasts-day">
                     <div class="banner__forecasts-day-of-week">
                       <h4>Tuesday</h4>
@@ -98,7 +100,7 @@
                       </div>
                     </div>
                   </div>
-    
+
                   <div class="banner__forecasts-day">
                     <div class="banner__forecasts-day-of-week">
                       <h4>Tuesday</h4>
@@ -112,17 +114,15 @@
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
 
               <div class="banner__standing">
                 <div class="banner_standing-map">
-                  <!-- <div class="test"></div> -->
                   <img src="./assets/images/map.png" atl="map" />
                 </div>
                 <div class="banner__stading-locality">
-                  <span>Latitude: 53°54' <br>Longitude: 27°34'</span>
+                  <span>Latitude: 53°54' <br />Longitude: 27°34'</span>
                 </div>
               </div>
             </div>
