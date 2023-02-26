@@ -1,0 +1,13 @@
+:root {
+  --main-transition: 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+body {
+  font-family: "Bowlby";
+}
+
+._container {
+}
+
+._wrapper {
+}
