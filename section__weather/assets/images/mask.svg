@@ -1,0 +1,6 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="375" height="398">
+    <path
+        style="fill: #000000; opacity: 1"
+        d="M 30 0 H 345 A 30 30 0 0 1 375 30 V 398 L 345 368 H 30 A 30 30 0 0 1 0 338 V 30 A 30 30 0 0 1 30 0"
+        fill="#0001" />
+</svg>
