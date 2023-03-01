@@ -1,1 +1,74 @@
 @import "../constants";
+@import "../mixins";
+
+.banner {
+  position: relative;
+  background-color: red;
+
+  &__container {
+    ._container();
+    position: relative;
+  }
+
+  &__wrapper {
+    ._wrapper();
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+  }
+}
+
+.header {
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 10px 0;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .menu__list {
+      display: flex;
+    }
+
+    .menu__item {
+      width: 114px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+    }
+  }
+
+  &__menu {
+    .menu_link {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  &__list {
+    a.basket::after {
+      content: "\e908";
+      font-family: "icomoon";
+      font-size: 18px;
+      color: black;
+    }
+  }
+}
