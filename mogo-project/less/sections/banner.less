@@ -3,7 +3,23 @@
 
 .banner {
   position: relative;
-  background-color: red;
+  background: url(../../assets/img/banner/fon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(
+      360deg,
+      rgba(237, 215, 137, 0.9) 0%,
+      rgba(233, 130, 131, 0.9) 100%
+    );
+  }
 
   &__container {
     ._container();
@@ -64,11 +80,18 @@
   }
 
   &__list {
-    a.basket::after {
-      content: "\e908";
-      font-family: "icomoon";
-      font-size: 18px;
-      color: black;
+    a {
+      &.basket::before,
+      &.surch::before {
+        color: black;
+        font-family: "icomoon" !important;
+      }
+      &.basket::before {
+        content: "\e908";
+      }
+      &surch::before {
+        content: "\e909";
+      }
     }
   }
 }
