@@ -1,0 +1,113 @@
+.meditation__wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.meditation__background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.meditation__background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+video::-webkit-media-controls {
+  display: none;
+  position: absolute;
+}
+
+.meditation__footer {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.meditation__navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.meditation__link {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+.meditation__link a {
+  display: block;
+  width: 11px;
+  height: 11px;
+  padding: 0px 3px 0px 5px;
+  background: rgb(248, 248, 248);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.meditation__link:hover a {
+  background: rgb(103, 100, 100);
+}
+
+.meditation__navigation ul {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  margin: 20px auto;
+  position: relative;
+  height: 20px;
+}
+
+.meditation__link:hover > .miniature {
+  display: flex;
+}
+
+.miniature {
+  background-color: rgb(249, 246, 246);
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  width: 160px;
+  height: 90px;
+  bottom: 30px;
+  display: none;
+  justify-content: center;
+}
+
+.miniature::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid white;
+}
+
+.miniature > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
